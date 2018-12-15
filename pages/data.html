@@ -1,0 +1,5984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lattitude</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="../index.html">Lattitude</a>
+              
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+              
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="temperature.html">Temperature</a>
+                        <a class="dropdown-item" href="windspeed.html">Windspeed</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparisons.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li> 
+            </ul>
+        </div> 
+    </nav>
+<div class="container">
+<div class="row">
+<div class="col-12 justify-content-center">
+<h1>Data</h1>
+<hr/>
+<table class="table table-bordered table-hover table-condensed">
+<div class="table-responsive">
+<thead><tr><th title="Field #1">City</th>
+<th title="Field #2">Cloudiness</th>
+<th title="Field #3">Country</th>
+<th title="Field #4">Date</th>
+<th title="Field #5">Humidity</th>
+<th title="Field #6">Lat</th>
+<th title="Field #7">Lng</th>
+<th title="Field #8">Max Temp</th>
+<th title="Field #9">Windspeed</th>
+</tr></thead>
+<tbody><tr>
+<td>batagay</td>
+<td align="right">68</td>
+<td>RU</td>
+<td align="right">1541178094</td>
+<td align="right">72</td>
+<td align="right">67.65</td>
+<td align="right">134.64</td>
+<td align="right">-6.84</td>
+<td align="right">2.93</td>
+</tr>
+<tr>
+<td>le havre</td>
+<td align="right">0</td>
+<td>FR</td>
+<td align="right">1541176200</td>
+<td align="right">61</td>
+<td align="right">49.49</td>
+<td align="right">0.11</td>
+<td align="right">50.0</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>ushuaia</td>
+<td align="right">75</td>
+<td>AR</td>
+<td align="right">1541174400</td>
+<td align="right">67</td>
+<td align="right">-54.81</td>
+<td align="right">-68.31</td>
+<td align="right">48.2</td>
+<td align="right">13.78</td>
+</tr>
+<tr>
+<td>san patricio</td>
+<td align="right">90</td>
+<td>MX</td>
+<td align="right">1541173200</td>
+<td align="right">83</td>
+<td align="right">19.22</td>
+<td align="right">-104.7</td>
+<td align="right">78.8</td>
+<td align="right">3.6</td>
+</tr>
+<tr>
+<td>hilo</td>
+<td align="right">1</td>
+<td>US</td>
+<td align="right">1541174160</td>
+<td align="right">75</td>
+<td align="right">19.71</td>
+<td align="right">-155.08</td>
+<td align="right">68.0</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>rikitea</td>
+<td align="right">92</td>
+<td>PF</td>
+<td align="right">1541178096</td>
+<td align="right">100</td>
+<td align="right">-23.12</td>
+<td align="right">-134.97</td>
+<td align="right">71.83</td>
+<td align="right">16.35</td>
+</tr>
+<tr>
+<td>manaure</td>
+<td align="right">75</td>
+<td>CO</td>
+<td align="right">1541174400</td>
+<td align="right">59</td>
+<td align="right">11.78</td>
+<td align="right">-72.45</td>
+<td align="right">89.6</td>
+<td align="right">18.34</td>
+</tr>
+<tr>
+<td>avarua</td>
+<td align="right">80</td>
+<td>CK</td>
+<td align="right">1541178067</td>
+<td align="right">100</td>
+<td align="right">-21.21</td>
+<td align="right">-159.78</td>
+<td align="right">74.93</td>
+<td align="right">13.11</td>
+</tr>
+<tr>
+<td>ardakan</td>
+<td align="right">0</td>
+<td>IR</td>
+<td align="right">1541176200</td>
+<td align="right">37</td>
+<td align="right">32.31</td>
+<td align="right">54.02</td>
+<td align="right">53.6</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>bredasdorp</td>
+<td align="right">0</td>
+<td>ZA</td>
+<td align="right">1541174400</td>
+<td align="right">55</td>
+<td align="right">-34.53</td>
+<td align="right">20.04</td>
+<td align="right">64.4</td>
+<td align="right">23.04</td>
+</tr>
+<tr>
+<td>kapaa</td>
+<td align="right">40</td>
+<td>US</td>
+<td align="right">1541175180</td>
+<td align="right">79</td>
+<td align="right">22.08</td>
+<td align="right">-159.32</td>
+<td align="right">77.0</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td>muisne</td>
+<td align="right">8</td>
+<td>EC</td>
+<td align="right">1541178098</td>
+<td align="right">83</td>
+<td align="right">0.61</td>
+<td align="right">-80.02</td>
+<td align="right">81.01</td>
+<td align="right">4.38</td>
+</tr>
+<tr>
+<td>albany</td>
+<td align="right">92</td>
+<td>AU</td>
+<td align="right">1541178098</td>
+<td align="right">95</td>
+<td align="right">-35.02</td>
+<td align="right">117.88</td>
+<td align="right">51.8</td>
+<td align="right">3.38</td>
+</tr>
+<tr>
+<td>bonthe</td>
+<td align="right">36</td>
+<td>SL</td>
+<td align="right">1541178099</td>
+<td align="right">94</td>
+<td align="right">7.53</td>
+<td align="right">-12.5</td>
+<td align="right">79.75</td>
+<td align="right">1.48</td>
+</tr>
+<tr>
+<td>bluff</td>
+<td align="right">80</td>
+<td>NZ</td>
+<td align="right">1541178099</td>
+<td align="right">78</td>
+<td align="right">-46.6</td>
+<td align="right">168.33</td>
+<td align="right">59.23</td>
+<td align="right">20.49</td>
+</tr>
+<tr>
+<td>derzhavinsk</td>
+<td align="right">92</td>
+<td>KZ</td>
+<td align="right">1541178100</td>
+<td align="right">86</td>
+<td align="right">51.1</td>
+<td align="right">66.31</td>
+<td align="right">32.27</td>
+<td align="right">14.67</td>
+</tr>
+<tr>
+<td>busselton</td>
+<td align="right">44</td>
+<td>AU</td>
+<td align="right">1541178100</td>
+<td align="right">100</td>
+<td align="right">-33.64</td>
+<td align="right">115.35</td>
+<td align="right">58.64</td>
+<td align="right">13</td>
+</tr>
+<tr>
+<td>dingle</td>
+<td align="right">92</td>
+<td>IE</td>
+<td align="right">1541178101</td>
+<td align="right">95</td>
+<td align="right">52.14</td>
+<td align="right">-10.27</td>
+<td align="right">54.28</td>
+<td align="right">28.77</td>
+</tr>
+<tr>
+<td>camacha</td>
+<td align="right">40</td>
+<td>PT</td>
+<td align="right">1541176200</td>
+<td align="right">72</td>
+<td align="right">33.08</td>
+<td align="right">-16.33</td>
+<td align="right">69.8</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>hambantota</td>
+<td align="right">48</td>
+<td>LK</td>
+<td align="right">1541178102</td>
+<td align="right">100</td>
+<td align="right">6.12</td>
+<td align="right">81.12</td>
+<td align="right">78.58</td>
+<td align="right">3.71</td>
+</tr>
+<tr>
+<td>vaini</td>
+<td align="right">75</td>
+<td>TO</td>
+<td align="right">1541174400</td>
+<td align="right">77</td>
+<td align="right">-21.2</td>
+<td align="right">-175.2</td>
+<td align="right">68.0</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td>nabire</td>
+<td align="right">8</td>
+<td>ID</td>
+<td align="right">1541178103</td>
+<td align="right">96</td>
+<td align="right">-3.36</td>
+<td align="right">135.5</td>
+<td align="right">66.97</td>
+<td align="right">1.7</td>
+</tr>
+<tr>
+<td>tasiilaq</td>
+<td align="right">40</td>
+<td>GL</td>
+<td align="right">1541177400</td>
+<td align="right">54</td>
+<td align="right">65.61</td>
+<td align="right">-37.64</td>
+<td align="right">30.2</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>faanui</td>
+<td align="right">92</td>
+<td>PF</td>
+<td align="right">1541178103</td>
+<td align="right">100</td>
+<td align="right">-16.48</td>
+<td align="right">-151.75</td>
+<td align="right">77.95</td>
+<td align="right">18.37</td>
+</tr>
+<tr>
+<td>yellowknife</td>
+<td align="right">90</td>
+<td>CA</td>
+<td align="right">1541176440</td>
+<td align="right">92</td>
+<td align="right">62.45</td>
+<td align="right">-114.38</td>
+<td align="right">24.8</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>ambovombe</td>
+<td align="right">76</td>
+<td>MG</td>
+<td align="right">1541178104</td>
+<td align="right">90</td>
+<td align="right">-25.18</td>
+<td align="right">46.09</td>
+<td align="right">72.5</td>
+<td align="right">3.94</td>
+</tr>
+<tr>
+<td>nhulunbuy</td>
+<td align="right">0</td>
+<td>AU</td>
+<td align="right">1541176200</td>
+<td align="right">83</td>
+<td align="right">-12.18</td>
+<td align="right">136.78</td>
+<td align="right">77.0</td>
+<td align="right">12.44</td>
+</tr>
+<tr>
+<td>buarcos</td>
+<td align="right">75</td>
+<td>PT</td>
+<td align="right">1541174400</td>
+<td align="right">93</td>
+<td align="right">40.16</td>
+<td align="right">-8.88</td>
+<td align="right">60.8</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>arraial do cabo</td>
+<td align="right">75</td>
+<td>BR</td>
+<td align="right">1541178000</td>
+<td align="right">65</td>
+<td align="right">-22.97</td>
+<td align="right">-42.02</td>
+<td align="right">82.4</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>benjamin constant</td>
+<td align="right">75</td>
+<td>BR</td>
+<td align="right">1541178000</td>
+<td align="right">83</td>
+<td align="right">-4.38</td>
+<td align="right">-70.03</td>
+<td align="right">84.2</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>vestmannaeyjar</td>
+<td align="right">40</td>
+<td>IS</td>
+<td align="right">1541174400</td>
+<td align="right">86</td>
+<td align="right">63.44</td>
+<td align="right">-20.27</td>
+<td align="right">39.2</td>
+<td align="right">23.04</td>
+</tr>
+<tr>
+<td>hobart</td>
+<td align="right">20</td>
+<td>AU</td>
+<td align="right">1541176380</td>
+<td align="right">52</td>
+<td align="right">-42.88</td>
+<td align="right">147.33</td>
+<td align="right">46.4</td>
+<td align="right">19.46</td>
+</tr>
+<tr>
+<td>mar del plata</td>
+<td align="right">32</td>
+<td>AR</td>
+<td align="right">1541178107</td>
+<td align="right">49</td>
+<td align="right">-46.43</td>
+<td align="right">-67.52</td>
+<td align="right">62.42</td>
+<td align="right">13.44</td>
+</tr>
+<tr>
+<td>hermanus</td>
+<td align="right">0</td>
+<td>ZA</td>
+<td align="right">1541178107</td>
+<td align="right">44</td>
+<td align="right">-34.42</td>
+<td align="right">19.24</td>
+<td align="right">66.7</td>
+<td align="right">5.17</td>
+</tr>
+<tr>
+<td>nanortalik</td>
+<td align="right">36</td>
+<td>GL</td>
+<td align="right">1541178108</td>
+<td align="right">95</td>
+<td align="right">60.14</td>
+<td align="right">-45.24</td>
+<td align="right">32.54</td>
+<td align="right">9.86</td>
+</tr>
+<tr>
+<td>ribeira grande</td>
+<td align="right">20</td>
+<td>PT</td>
+<td align="right">1541176200</td>
+<td align="right">88</td>
+<td align="right">38.52</td>
+<td align="right">-28.7</td>
+<td align="right">71.6</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>green river</td>
+<td align="right">90</td>
+<td>US</td>
+<td align="right">1541174040</td>
+<td align="right">73</td>
+<td align="right">41.53</td>
+<td align="right">-109.47</td>
+<td align="right">42.98</td>
+<td align="right">20.8</td>
+</tr>
+<tr>
+<td>victoria</td>
+<td align="right">20</td>
+<td>SC</td>
+<td align="right">1541174400</td>
+<td align="right">88</td>
+<td align="right">-4.62</td>
+<td align="right">55.45</td>
+<td align="right">80.6</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>clyde river</td>
+<td align="right">75</td>
+<td>CA</td>
+<td align="right">1541174400</td>
+<td align="right">78</td>
+<td align="right">70.47</td>
+<td align="right">-68.59</td>
+<td align="right">10.4</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>takoradi</td>
+<td align="right">64</td>
+<td>GH</td>
+<td align="right">1541178110</td>
+<td align="right">99</td>
+<td align="right">4.89</td>
+<td align="right">-1.75</td>
+<td align="right">80.69</td>
+<td align="right">8.86</td>
+</tr>
+<tr>
+<td>ljungby</td>
+<td align="right">75</td>
+<td>SE</td>
+<td align="right">1541175600</td>
+<td align="right">81</td>
+<td align="right">56.83</td>
+<td align="right">13.94</td>
+<td align="right">50.0</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>davila</td>
+<td align="right">0</td>
+<td>PH</td>
+<td align="right">1541178111</td>
+<td align="right">97</td>
+<td align="right">18.47</td>
+<td align="right">120.58</td>
+<td align="right">79.48</td>
+<td align="right">9.42</td>
+</tr>
+<tr>
+<td>east london</td>
+<td align="right">20</td>
+<td>ZA</td>
+<td align="right">1541174400</td>
+<td align="right">59</td>
+<td align="right">-33.02</td>
+<td align="right">27.91</td>
+<td align="right">64.4</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td>kodiak</td>
+<td align="right">90</td>
+<td>US</td>
+<td align="right">1541177580</td>
+<td align="right">71</td>
+<td align="right">39.95</td>
+<td align="right">-94.76</td>
+<td align="right">50.0</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td>flin flon</td>
+<td align="right">90</td>
+<td>CA</td>
+<td align="right">1541174400</td>
+<td align="right">63</td>
+<td align="right">54.77</td>
+<td align="right">-101.88</td>
+<td align="right">28.4</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>nikolskoye</td>
+<td align="right">90</td>
+<td>RU</td>
+<td align="right">1541174400</td>
+<td align="right">93</td>
+<td align="right">59.7</td>
+<td align="right">30.79</td>
+<td align="right">44.6</td>
+<td align="right">8.95</td>
+</tr>
+<tr>
+<td>chuy</td>
+<td align="right">20</td>
+<td>UY</td>
+<td align="right">1541178113</td>
+<td align="right">81</td>
+<td align="right">-33.69</td>
+<td align="right">-53.46</td>
+<td align="right">67.6</td>
+<td align="right">11.99</td>
+</tr>
+<tr>
+<td>portland</td>
+<td align="right">0</td>
+<td>AU</td>
+<td align="right">1541178114</td>
+<td align="right">73</td>
+<td align="right">-33.35</td>
+<td align="right">149.98</td>
+<td align="right">66.74</td>
+<td align="right">7.74</td>
+</tr>
+<tr>
+<td>komsomolskiy</td>
+<td align="right">68</td>
+<td>RU</td>
+<td align="right">1541178114</td>
+<td align="right">85</td>
+<td align="right">67.55</td>
+<td align="right">63.78</td>
+<td align="right">24.08</td>
+<td align="right">10.65</td>
+</tr>
+<tr>
+<td>klaksvik</td>
+<td align="right">68</td>
+<td>FO</td>
+<td align="right">1541175600</td>
+<td align="right">70</td>
+<td align="right">62.23</td>
+<td align="right">-6.59</td>
+<td align="right">42.8</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>goya</td>
+<td align="right">0</td>
+<td>AR</td>
+<td align="right">1541178175</td>
+<td align="right">56</td>
+<td align="right">-29.14</td>
+<td align="right">-59.27</td>
+<td align="right">87.76</td>
+<td align="right">11.54</td>
+</tr>
+<tr>
+<td>eqbaliyeh</td>
+<td align="right">20</td>
+<td>IR</td>
+<td align="right">1541176200</td>
+<td align="right">75</td>
+<td align="right">35.3</td>
+<td align="right">51.54</td>
+<td align="right">55.4</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>phan thiet</td>
+<td align="right">48</td>
+<td>VN</td>
+<td align="right">1541177882</td>
+<td align="right">92</td>
+<td align="right">10.93</td>
+<td align="right">108.1</td>
+<td align="right">80.38</td>
+<td align="right">10.65</td>
+</tr>
+<tr>
+<td>hasaki</td>
+<td align="right">20</td>
+<td>JP</td>
+<td align="right">1541174400</td>
+<td align="right">93</td>
+<td align="right">35.73</td>
+<td align="right">140.83</td>
+<td align="right">48.2</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>sambava</td>
+<td align="right">0</td>
+<td>MG</td>
+<td align="right">1541178177</td>
+<td align="right">100</td>
+<td align="right">-14.27</td>
+<td align="right">50.17</td>
+<td align="right">77.18</td>
+<td align="right">15.23</td>
+</tr>
+<tr>
+<td>lumphat</td>
+<td align="right">8</td>
+<td>KH</td>
+<td align="right">1541178177</td>
+<td align="right">75</td>
+<td align="right">13.5</td>
+<td align="right">106.97</td>
+<td align="right">72.23</td>
+<td align="right">4.38</td>
+</tr>
+<tr>
+<td>lexington</td>
+<td align="right">90</td>
+<td>US</td>
+<td align="right">1541176500</td>
+<td align="right">93</td>
+<td align="right">38.05</td>
+<td align="right">-84.5</td>
+<td align="right">44.96</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>atuona</td>
+<td align="right">0</td>
+<td>PF</td>
+<td align="right">1541178178</td>
+<td align="right">100</td>
+<td align="right">-9.8</td>
+<td align="right">-139.03</td>
+<td align="right">80.78</td>
+<td align="right">11.99</td>
+</tr>
+<tr>
+<td>joshimath</td>
+<td align="right">80</td>
+<td>IN</td>
+<td align="right">1541178179</td>
+<td align="right">82</td>
+<td align="right">30.57</td>
+<td align="right">79.57</td>
+<td align="right">11.62</td>
+<td align="right">0.69</td>
+</tr>
+<tr>
+<td>husavik</td>
+<td align="right">20</td>
+<td>IS</td>
+<td align="right">1541174400</td>
+<td align="right">74</td>
+<td align="right">66.04</td>
+<td align="right">-17.34</td>
+<td align="right">30.2</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>marawi</td>
+<td align="right">0</td>
+<td>SD</td>
+<td align="right">1541178179</td>
+<td align="right">34</td>
+<td align="right">18.48</td>
+<td align="right">31.82</td>
+<td align="right">80.6</td>
+<td align="right">9.64</td>
+</tr>
+<tr>
+<td>qaanaaq</td>
+<td align="right">0</td>
+<td>GL</td>
+<td align="right">1541178180</td>
+<td align="right">100</td>
+<td align="right">77.48</td>
+<td align="right">-69.36</td>
+<td align="right">0.73</td>
+<td align="right">8.75</td>
+</tr>
+<tr>
+<td>vao</td>
+<td align="right">0</td>
+<td>NC</td>
+<td align="right">1541178180</td>
+<td align="right">100</td>
+<td align="right">-22.67</td>
+<td align="right">167.48</td>
+<td align="right">71.02</td>
+<td align="right">22.28</td>
+</tr>
+<tr>
+<td>honiara</td>
+<td align="right">88</td>
+<td>SB</td>
+<td align="right">1541178181</td>
+<td align="right">100</td>
+<td align="right">-9.43</td>
+<td align="right">159.96</td>
+<td align="right">75.16</td>
+<td align="right">4.61</td>
+</tr>
+<tr>
+<td>juli</td>
+<td align="right">24</td>
+<td>PE</td>
+<td align="right">1541178181</td>
+<td align="right">55</td>
+<td align="right">-16.21</td>
+<td align="right">-69.46</td>
+<td align="right">59.95</td>
+<td align="right">5.73</td>
+</tr>
+<tr>
+<td>sungairaya</td>
+<td align="right">64</td>
+<td>ID</td>
+<td align="right">1541178181</td>
+<td align="right">100</td>
+<td align="right">0.7</td>
+<td align="right">108.9</td>
+<td align="right">73.13</td>
+<td align="right">3.04</td>
+</tr>
+<tr>
+<td>iqaluit</td>
+<td align="right">20</td>
+<td>CA</td>
+<td align="right">1541174400</td>
+<td align="right">71</td>
+<td align="right">63.75</td>
+<td align="right">-68.52</td>
+<td align="right">5.0</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>terrace</td>
+<td align="right">90</td>
+<td>CA</td>
+<td align="right">1541176080</td>
+<td align="right">93</td>
+<td align="right">54.52</td>
+<td align="right">-128.61</td>
+<td align="right">39.2</td>
+<td align="right">1.25</td>
+</tr>
+<tr>
+<td>port alfred</td>
+<td align="right">0</td>
+<td>ZA</td>
+<td align="right">1541178172</td>
+<td align="right">86</td>
+<td align="right">-33.59</td>
+<td align="right">26.89</td>
+<td align="right">63.46</td>
+<td align="right">15.23</td>
+</tr>
+<tr>
+<td>sarh</td>
+<td align="right">40</td>
+<td>TD</td>
+<td align="right">1541174400</td>
+<td align="right">48</td>
+<td align="right">9.14</td>
+<td align="right">18.39</td>
+<td align="right">87.8</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>wageningen</td>
+<td align="right">20</td>
+<td>SR</td>
+<td align="right">1541178183</td>
+<td align="right">94</td>
+<td align="right">5.77</td>
+<td align="right">-56.69</td>
+<td align="right">83.53</td>
+<td align="right">9.64</td>
+</tr>
+<tr>
+<td>tiksi</td>
+<td align="right">64</td>
+<td>RU</td>
+<td align="right">1541178183</td>
+<td align="right">57</td>
+<td align="right">71.64</td>
+<td align="right">128.87</td>
+<td align="right">-6.3</td>
+<td align="right">4.94</td>
+</tr>
+<tr>
+<td>ucluelet</td>
+<td align="right">40</td>
+<td>CA</td>
+<td align="right">1541174400</td>
+<td align="right">100</td>
+<td align="right">48.94</td>
+<td align="right">-125.55</td>
+<td align="right">51.8</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td>povoa de varzim</td>
+<td align="right">40</td>
+<td>PT</td>
+<td align="right">1541176200</td>
+<td align="right">87</td>
+<td align="right">41.38</td>
+<td align="right">-8.76</td>
+<td align="right">60.8</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>opuwo</td>
+<td align="right">0</td>
+<td>NA</td>
+<td align="right">1541178185</td>
+<td align="right">22</td>
+<td align="right">-18.06</td>
+<td align="right">13.84</td>
+<td align="right">80.65</td>
+<td align="right">9.98</td>
+</tr>
+<tr>
+<td>evensk</td>
+<td align="right">0</td>
+<td>RU</td>
+<td align="right">1541178185</td>
+<td align="right">100</td>
+<td align="right">61.92</td>
+<td align="right">159.24</td>
+<td align="right">11.48</td>
+<td align="right">7.29</td>
+</tr>
+<tr>
+<td>bataipora</td>
+<td align="right">0</td>
+<td>BR</td>
+<td align="right">1541178186</td>
+<td align="right">78</td>
+<td align="right">-22.3</td>
+<td align="right">-53.27</td>
+<td align="right">90.5</td>
+<td align="right">4.83</td>
+</tr>
+<tr>
+<td>okhotsk</td>
+<td align="right">76</td>
+<td>RU</td>
+<td align="right">1541178186</td>
+<td align="right">100</td>
+<td align="right">59.36</td>
+<td align="right">143.24</td>
+<td align="right">19.27</td>
+<td align="right">3.94</td>
+</tr>
+<tr>
+<td>norman wells</td>
+<td align="right">90</td>
+<td>CA</td>
+<td align="right">1541176500</td>
+<td align="right">84</td>
+<td align="right">65.28</td>
+<td align="right">-126.83</td>
+<td align="right">8.6</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>kirovsk</td>
+<td align="right">80</td>
+<td>RU</td>
+<td align="right">1541178187</td>
+<td align="right">100</td>
+<td align="right">67.62</td>
+<td align="right">33.66</td>
+<td align="right">26.15</td>
+<td align="right">2.59</td>
+</tr>
+<tr>
+<td>cukai</td>
+<td align="right">80</td>
+<td>MY</td>
+<td align="right">1541174400</td>
+<td align="right">94</td>
+<td align="right">4.25</td>
+<td align="right">103.42</td>
+<td align="right">77.0</td>
+<td align="right">1.12</td>
+</tr>
+<tr>
+<td>sayyan</td>
+<td align="right">0</td>
+<td>YE</td>
+<td align="right">1541178188</td>
+<td align="right">52</td>
+<td align="right">15.17</td>
+<td align="right">44.32</td>
+<td align="right">54.05</td>
+<td align="right">5.17</td>
+</tr>
+<tr>
+<td>castro</td>
+<td align="right">100</td>
+<td>CL</td>
+<td align="right">1541178188</td>
+<td align="right">87</td>
+<td align="right">-42.48</td>
+<td align="right">-73.76</td>
+<td align="right">52.43</td>
+<td align="right">2.59</td>
+</tr>
+<tr>
+<td>la ronge</td>
+<td align="right">90</td>
+<td>CA</td>
+<td align="right">1541174400</td>
+<td align="right">73</td>
+<td align="right">55.1</td>
+<td align="right">-105.3</td>
+<td align="right">24.8</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>pahrump</td>
+<td align="right">1</td>
+<td>US</td>
+<td align="right">1541177580</td>
+<td align="right">29</td>
+<td align="right">36.21</td>
+<td align="right">-115.98</td>
+<td align="right">68.0</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>tuktoyaktuk</td>
+<td align="right">90</td>
+<td>CA</td>
+<td align="right">1541174400</td>
+<td align="right">92</td>
+<td align="right">69.44</td>
+<td align="right">-133.03</td>
+<td align="right">10.4</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>sao felix do xingu</td>
+<td align="right">76</td>
+<td>BR</td>
+<td align="right">1541177991</td>
+<td align="right">82</td>
+<td align="right">-6.64</td>
+<td align="right">-51.99</td>
+<td align="right">81.55</td>
+<td align="right">2.93</td>
+</tr>
+<tr>
+<td>chancay</td>
+<td align="right">0</td>
+<td>PE</td>
+<td align="right">1541178191</td>
+<td align="right">62</td>
+<td align="right">-11.56</td>
+<td align="right">-77.27</td>
+<td align="right">73.18</td>
+<td align="right">4.72</td>
+</tr>
+<tr>
+<td>luebo</td>
+<td align="right">32</td>
+<td>CD</td>
+<td align="right">1541178191</td>
+<td align="right">98</td>
+<td align="right">-5.35</td>
+<td align="right">21.42</td>
+<td align="right">73.18</td>
+<td align="right">1.59</td>
+</tr>
+<tr>
+<td>ayna</td>
+<td align="right">40</td>
+<td>PE</td>
+<td align="right">1541174400</td>
+<td align="right">64</td>
+<td align="right">-12.72</td>
+<td align="right">-73.91</td>
+<td align="right">68.0</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>kholodnyy</td>
+<td align="right">56</td>
+<td>RU</td>
+<td align="right">1541178192</td>
+<td align="right">72</td>
+<td align="right">62.72</td>
+<td align="right">147.95</td>
+<td align="right">-4.9</td>
+<td align="right">2.71</td>
+</tr>
+<tr>
+<td>luz</td>
+<td align="right">24</td>
+<td>BR</td>
+<td align="right">1541178193</td>
+<td align="right">60</td>
+<td align="right">-19.79</td>
+<td align="right">-45.68</td>
+<td align="right">87.31</td>
+<td align="right">5.5</td>
+</tr>
+<tr>
+<td>haapiti</td>
+<td align="right">20</td>
+<td>PF</td>
+<td align="right">1541176200</td>
+<td align="right">73</td>
+<td align="right">-17.57</td>
+<td align="right">-149.87</td>
+<td align="right">77.0</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>punta arenas</td>
+<td align="right">75</td>
+<td>CL</td>
+<td align="right">1541174400</td>
+<td align="right">41</td>
+<td align="right">-53.16</td>
+<td align="right">-70.91</td>
+<td align="right">57.2</td>
+<td align="right">18.34</td>
+</tr>
+<tr>
+<td>cidreira</td>
+<td align="right">0</td>
+<td>BR</td>
+<td align="right">1541178195</td>
+<td align="right">76</td>
+<td align="right">-30.17</td>
+<td align="right">-50.22</td>
+<td align="right">73.18</td>
+<td align="right">14.9</td>
+</tr>
+<tr>
+<td>sao filipe</td>
+<td align="right">36</td>
+<td>CV</td>
+<td align="right">1541178265</td>
+<td align="right">85</td>
+<td align="right">14.9</td>
+<td align="right">-24.5</td>
+<td align="right">81.77</td>
+<td align="right">14</td>
+</tr>
+<tr>
+<td>khatanga</td>
+<td align="right">64</td>
+<td>RU</td>
+<td align="right">1541178196</td>
+<td align="right">71</td>
+<td align="right">71.98</td>
+<td align="right">102.47</td>
+<td align="right">1.22</td>
+<td align="right">12.77</td>
+</tr>
+<tr>
+<td>lebu</td>
+<td align="right">100</td>
+<td>CL</td>
+<td align="right">1541178196</td>
+<td align="right">98</td>
+<td align="right">-37.62</td>
+<td align="right">-73.65</td>
+<td align="right">55.85</td>
+<td align="right">10.76</td>
+</tr>
+<tr>
+<td>egvekinot</td>
+<td align="right">88</td>
+<td>RU</td>
+<td align="right">1541178197</td>
+<td align="right">83</td>
+<td align="right">66.32</td>
+<td align="right">-179.17</td>
+<td align="right">13.6</td>
+<td align="right">2.59</td>
+</tr>
+<tr>
+<td>rohri</td>
+<td align="right">76</td>
+<td>PK</td>
+<td align="right">1541178000</td>
+<td align="right">49</td>
+<td align="right">27.68</td>
+<td align="right">68.91</td>
+<td align="right">69.8</td>
+<td align="right">2.82</td>
+</tr>
+<tr>
+<td>kedrovyy</td>
+<td align="right">40</td>
+<td>RU</td>
+<td align="right">1541176200</td>
+<td align="right">57</td>
+<td align="right">56.17</td>
+<td align="right">91.82</td>
+<td align="right">21.2</td>
+<td align="right">11.18</td>
+</tr>
+<tr>
+<td>butaritari</td>
+<td align="right">0</td>
+<td>KI</td>
+<td align="right">1541178258</td>
+<td align="right">100</td>
+<td align="right">3.07</td>
+<td align="right">172.79</td>
+<td align="right">84.97</td>
+<td align="right">10.65</td>
+</tr>
+<tr>
+<td>saskylakh</td>
+<td align="right">56</td>
+<td>RU</td>
+<td align="right">1541178259</td>
+<td align="right">82</td>
+<td align="right">71.97</td>
+<td align="right">114.09</td>
+<td align="right">3.47</td>
+<td align="right">9.75</td>
+</tr>
+<tr>
+<td>carnarvon</td>
+<td align="right">8</td>
+<td>AU</td>
+<td align="right">1541178124</td>
+<td align="right">99</td>
+<td align="right">-24.87</td>
+<td align="right">113.63</td>
+<td align="right">68.72</td>
+<td align="right">17.92</td>
+</tr>
+<tr>
+<td>puerto del rosario</td>
+<td align="right">75</td>
+<td>ES</td>
+<td align="right">1541176200</td>
+<td align="right">69</td>
+<td align="right">28.5</td>
+<td align="right">-13.86</td>
+<td align="right">73.4</td>
+<td align="right">26.4</td>
+</tr>
+<tr>
+<td>severo-kurilsk</td>
+<td align="right">48</td>
+<td>RU</td>
+<td align="right">1541178260</td>
+<td align="right">92</td>
+<td align="right">50.68</td>
+<td align="right">156.12</td>
+<td align="right">41.45</td>
+<td align="right">20.83</td>
+</tr>
+<tr>
+<td>palana</td>
+<td align="right">48</td>
+<td>RU</td>
+<td align="right">1541178261</td>
+<td align="right">72</td>
+<td align="right">59.08</td>
+<td align="right">159.95</td>
+<td align="right">10.13</td>
+<td align="right">2.59</td>
+</tr>
+<tr>
+<td>felipe carrillo puerto</td>
+<td align="right">80</td>
+<td>MX</td>
+<td align="right">1541178261</td>
+<td align="right">74</td>
+<td align="right">19.58</td>
+<td align="right">-88.05</td>
+<td align="right">85.51</td>
+<td align="right">3.6</td>
+</tr>
+<tr>
+<td>jamestown</td>
+<td align="right">80</td>
+<td>SH</td>
+<td align="right">1541178261</td>
+<td align="right">100</td>
+<td align="right">-15.94</td>
+<td align="right">-5.72</td>
+<td align="right">67.82</td>
+<td align="right">9.75</td>
+</tr>
+<tr>
+<td>soyo</td>
+<td align="right">0</td>
+<td>AO</td>
+<td align="right">1541178262</td>
+<td align="right">69</td>
+<td align="right">-6.13</td>
+<td align="right">12.37</td>
+<td align="right">80.38</td>
+<td align="right">7.63</td>
+</tr>
+<tr>
+<td>progreso</td>
+<td align="right">92</td>
+<td>MX</td>
+<td align="right">1541178263</td>
+<td align="right">89</td>
+<td align="right">20.25</td>
+<td align="right">-99.19</td>
+<td align="right">60.22</td>
+<td align="right">3.6</td>
+</tr>
+<tr>
+<td>council bluffs</td>
+<td align="right">75</td>
+<td>US</td>
+<td align="right">1541177640</td>
+<td align="right">65</td>
+<td align="right">41.26</td>
+<td align="right">-95.86</td>
+<td align="right">50.0</td>
+<td align="right">18.34</td>
+</tr>
+<tr>
+<td>nuuk</td>
+<td align="right">40</td>
+<td>GL</td>
+<td align="right">1541177400</td>
+<td align="right">62</td>
+<td align="right">64.17</td>
+<td align="right">-51.74</td>
+<td align="right">19.4</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td>mazamari</td>
+<td align="right">36</td>
+<td>PE</td>
+<td align="right">1541178264</td>
+<td align="right">70</td>
+<td align="right">-11.33</td>
+<td align="right">-74.53</td>
+<td align="right">78.8</td>
+<td align="right">2.26</td>
+</tr>
+<tr>
+<td>amarpatan</td>
+<td align="right">0</td>
+<td>IN</td>
+<td align="right">1541178268</td>
+<td align="right">65</td>
+<td align="right">24.32</td>
+<td align="right">80.97</td>
+<td align="right">73.22</td>
+<td align="right">5.06</td>
+</tr>
+<tr>
+<td>yulara</td>
+<td align="right">40</td>
+<td>AU</td>
+<td align="right">1541174400</td>
+<td align="right">37</td>
+<td align="right">-25.24</td>
+<td align="right">130.99</td>
+<td align="right">84.2</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>barrow</td>
+<td align="right">90</td>
+<td>US</td>
+<td align="right">1541176500</td>
+<td align="right">80</td>
+<td align="right">39.51</td>
+<td align="right">-90.4</td>
+<td align="right">47.12</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>cape town</td>
+<td align="right">0</td>
+<td>ZA</td>
+<td align="right">1541174400</td>
+<td align="right">52</td>
+<td align="right">-33.93</td>
+<td align="right">18.42</td>
+<td align="right">69.8</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td>tolaga bay</td>
+<td align="right">76</td>
+<td>NZ</td>
+<td align="right">1541178269</td>
+<td align="right">76</td>
+<td align="right">-38.37</td>
+<td align="right">178.3</td>
+<td align="right">45.55</td>
+<td align="right">6.17</td>
+</tr>
+<tr>
+<td>saldanha</td>
+<td align="right">8</td>
+<td>ZA</td>
+<td align="right">1541174400</td>
+<td align="right">45</td>
+<td align="right">-33.01</td>
+<td align="right">17.94</td>
+<td align="right">80.6</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>mahebourg</td>
+<td align="right">20</td>
+<td>MU</td>
+<td align="right">1541174400</td>
+<td align="right">73</td>
+<td align="right">-20.41</td>
+<td align="right">57.7</td>
+<td align="right">77.0</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>tiznit</td>
+<td align="right">0</td>
+<td>MA</td>
+<td align="right">1541178270</td>
+<td align="right">78</td>
+<td align="right">29.7</td>
+<td align="right">-9.73</td>
+<td align="right">67.19</td>
+<td align="right">2.59</td>
+</tr>
+<tr>
+<td>georgetown</td>
+<td align="right">76</td>
+<td>SH</td>
+<td align="right">1541178271</td>
+<td align="right">100</td>
+<td align="right">-7.93</td>
+<td align="right">-14.42</td>
+<td align="right">75.16</td>
+<td align="right">14.12</td>
+</tr>
+<tr>
+<td>hornepayne</td>
+<td align="right">56</td>
+<td>CA</td>
+<td align="right">1541178271</td>
+<td align="right">72</td>
+<td align="right">49.22</td>
+<td align="right">-84.78</td>
+<td align="right">32.27</td>
+<td align="right">4.16</td>
+</tr>
+<tr>
+<td>hadejia</td>
+<td align="right">12</td>
+<td>NG</td>
+<td align="right">1541178271</td>
+<td align="right">30</td>
+<td align="right">12.45</td>
+<td align="right">10.04</td>
+<td align="right">79.66</td>
+<td align="right">4.83</td>
+</tr>
+<tr>
+<td>mamakan</td>
+<td align="right">56</td>
+<td>RU</td>
+<td align="right">1541178272</td>
+<td align="right">46</td>
+<td align="right">57.82</td>
+<td align="right">114.02</td>
+<td align="right">9.1</td>
+<td align="right">6.96</td>
+</tr>
+<tr>
+<td>bambous virieux</td>
+<td align="right">20</td>
+<td>MU</td>
+<td align="right">1541174400</td>
+<td align="right">73</td>
+<td align="right">-20.34</td>
+<td align="right">57.76</td>
+<td align="right">77.0</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>huilong</td>
+<td align="right">0</td>
+<td>CN</td>
+<td align="right">1541178273</td>
+<td align="right">62</td>
+<td align="right">31.15</td>
+<td align="right">106.5</td>
+<td align="right">50.72</td>
+<td align="right">5.39</td>
+</tr>
+<tr>
+<td>ilulissat</td>
+<td align="right">75</td>
+<td>GL</td>
+<td align="right">1541177400</td>
+<td align="right">56</td>
+<td align="right">69.22</td>
+<td align="right">-51.1</td>
+<td align="right">14.0</td>
+<td align="right">16.11</td>
+</tr>
+<tr>
+<td>mangrol</td>
+<td align="right">36</td>
+<td>IN</td>
+<td align="right">1541178273</td>
+<td align="right">51</td>
+<td align="right">25.33</td>
+<td align="right">76.51</td>
+<td align="right">71.02</td>
+<td align="right">5.73</td>
+</tr>
+<tr>
+<td>nkoteng</td>
+<td align="right">32</td>
+<td>CM</td>
+<td align="right">1541178274</td>
+<td align="right">70</td>
+<td align="right">4.5</td>
+<td align="right">12.12</td>
+<td align="right">79.21</td>
+<td align="right">7.29</td>
+</tr>
+<tr>
+<td>lamu</td>
+<td align="right">76</td>
+<td>KE</td>
+<td align="right">1541178213</td>
+<td align="right">88</td>
+<td align="right">-2.27</td>
+<td align="right">40.9</td>
+<td align="right">79.75</td>
+<td align="right">9.75</td>
+</tr>
+<tr>
+<td>kavieng</td>
+<td align="right">48</td>
+<td>PG</td>
+<td align="right">1541178274</td>
+<td align="right">100</td>
+<td align="right">-2.57</td>
+<td align="right">150.8</td>
+<td align="right">80.2</td>
+<td align="right">4.94</td>
+</tr>
+<tr>
+<td>brae</td>
+<td align="right">20</td>
+<td>GB</td>
+<td align="right">1541175600</td>
+<td align="right">86</td>
+<td align="right">60.4</td>
+<td align="right">-1.35</td>
+<td align="right">46.4</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>alice springs</td>
+<td align="right">0</td>
+<td>AU</td>
+<td align="right">1541176200</td>
+<td align="right">69</td>
+<td align="right">-23.7</td>
+<td align="right">133.88</td>
+<td align="right">73.4</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>tommot</td>
+<td align="right">68</td>
+<td>RU</td>
+<td align="right">1541178275</td>
+<td align="right">56</td>
+<td align="right">58.97</td>
+<td align="right">126.27</td>
+<td align="right">15.13</td>
+<td align="right">9.31</td>
+</tr>
+<tr>
+<td>matay</td>
+<td align="right">0</td>
+<td>EG</td>
+<td align="right">1541178276</td>
+<td align="right">44</td>
+<td align="right">28.42</td>
+<td align="right">30.79</td>
+<td align="right">66.47</td>
+<td align="right">8.41</td>
+</tr>
+<tr>
+<td>matagami</td>
+<td align="right">90</td>
+<td>CA</td>
+<td align="right">1541174400</td>
+<td align="right">92</td>
+<td align="right">49.76</td>
+<td align="right">-77.63</td>
+<td align="right">30.2</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>chicama</td>
+<td align="right">75</td>
+<td>PE</td>
+<td align="right">1541174400</td>
+<td align="right">77</td>
+<td align="right">-7.84</td>
+<td align="right">-79.15</td>
+<td align="right">68.0</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>tezu</td>
+<td align="right">0</td>
+<td>IN</td>
+<td align="right">1541178277</td>
+<td align="right">81</td>
+<td align="right">27.93</td>
+<td align="right">96.16</td>
+<td align="right">56.93</td>
+<td align="right">1.59</td>
+</tr>
+<tr>
+<td>cardston</td>
+<td align="right">75</td>
+<td>CA</td>
+<td align="right">1541174400</td>
+<td align="right">61</td>
+<td align="right">49.2</td>
+<td align="right">-113.32</td>
+<td align="right">48.2</td>
+<td align="right">24.16</td>
+</tr>
+<tr>
+<td>goroka</td>
+<td align="right">64</td>
+<td>PG</td>
+<td align="right">1541178278</td>
+<td align="right">100</td>
+<td align="right">-6.07</td>
+<td align="right">145.39</td>
+<td align="right">57.65</td>
+<td align="right">0.47</td>
+</tr>
+<tr>
+<td>barabinsk</td>
+<td align="right">92</td>
+<td>RU</td>
+<td align="right">1541178278</td>
+<td align="right">90</td>
+<td align="right">55.35</td>
+<td align="right">78.35</td>
+<td align="right">29.84</td>
+<td align="right">20.04</td>
+</tr>
+<tr>
+<td>puri</td>
+<td align="right">20</td>
+<td>IN</td>
+<td align="right">1541176200</td>
+<td align="right">88</td>
+<td align="right">19.8</td>
+<td align="right">85.85</td>
+<td align="right">78.8</td>
+<td align="right">4.61</td>
+</tr>
+<tr>
+<td>saint-philippe</td>
+<td align="right">75</td>
+<td>RE</td>
+<td align="right">1541176200</td>
+<td align="right">78</td>
+<td align="right">-21.36</td>
+<td align="right">55.77</td>
+<td align="right">75.2</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>mount gambier</td>
+<td align="right">92</td>
+<td>AU</td>
+<td align="right">1541178279</td>
+<td align="right">67</td>
+<td align="right">-37.83</td>
+<td align="right">140.78</td>
+<td align="right">55.49</td>
+<td align="right">10.42</td>
+</tr>
+<tr>
+<td>reconquista</td>
+<td align="right">0</td>
+<td>AR</td>
+<td align="right">1541178280</td>
+<td align="right">56</td>
+<td align="right">-29.14</td>
+<td align="right">-59.64</td>
+<td align="right">87.76</td>
+<td align="right">11.54</td>
+</tr>
+<tr>
+<td>chokurdakh</td>
+<td align="right">68</td>
+<td>RU</td>
+<td align="right">1541178280</td>
+<td align="right">59</td>
+<td align="right">70.62</td>
+<td align="right">147.9</td>
+<td align="right">-1.8</td>
+<td align="right">3.04</td>
+</tr>
+<tr>
+<td>inzer</td>
+<td align="right">88</td>
+<td>RU</td>
+<td align="right">1541178280</td>
+<td align="right">90</td>
+<td align="right">54.22</td>
+<td align="right">57.56</td>
+<td align="right">30.97</td>
+<td align="right">6.73</td>
+</tr>
+<tr>
+<td>nome</td>
+<td align="right">1</td>
+<td>US</td>
+<td align="right">1541177700</td>
+<td align="right">56</td>
+<td align="right">30.04</td>
+<td align="right">-94.42</td>
+<td align="right">66.02</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>kaitangata</td>
+<td align="right">56</td>
+<td>NZ</td>
+<td align="right">1541178341</td>
+<td align="right">82</td>
+<td align="right">-46.28</td>
+<td align="right">169.85</td>
+<td align="right">54.91</td>
+<td align="right">9.53</td>
+</tr>
+<tr>
+<td>acapulco</td>
+<td align="right">20</td>
+<td>MX</td>
+<td align="right">1541173800</td>
+<td align="right">74</td>
+<td align="right">16.86</td>
+<td align="right">-99.88</td>
+<td align="right">84.2</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>arona</td>
+<td align="right">20</td>
+<td>ES</td>
+<td align="right">1541176200</td>
+<td align="right">64</td>
+<td align="right">28.1</td>
+<td align="right">-16.68</td>
+<td align="right">75.2</td>
+<td align="right">25.28</td>
+</tr>
+<tr>
+<td>saint-francois</td>
+<td align="right">88</td>
+<td>GP</td>
+<td align="right">1541176200</td>
+<td align="right">66</td>
+<td align="right">16.25</td>
+<td align="right">-61.27</td>
+<td align="right">86.0</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td>ponta do sol</td>
+<td align="right">36</td>
+<td>CV</td>
+<td align="right">1541178343</td>
+<td align="right">98</td>
+<td align="right">17.2</td>
+<td align="right">-25.09</td>
+<td align="right">78.4</td>
+<td align="right">18.25</td>
+</tr>
+<tr>
+<td>bilibino</td>
+<td align="right">68</td>
+<td>RU</td>
+<td align="right">1541178343</td>
+<td align="right">68</td>
+<td align="right">68.06</td>
+<td align="right">166.44</td>
+<td align="right">-2.16</td>
+<td align="right">2.59</td>
+</tr>
+<tr>
+<td>jaroslaw</td>
+<td align="right">0</td>
+<td>PL</td>
+<td align="right">1541176200</td>
+<td align="right">77</td>
+<td align="right">50.02</td>
+<td align="right">22.68</td>
+<td align="right">60.8</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>sibolga</td>
+<td align="right">56</td>
+<td>ID</td>
+<td align="right">1541178344</td>
+<td align="right">100</td>
+<td align="right">1.74</td>
+<td align="right">98.78</td>
+<td align="right">68.18</td>
+<td align="right">2.04</td>
+</tr>
+<tr>
+<td>markova</td>
+<td align="right">0</td>
+<td>RU</td>
+<td align="right">1541176200</td>
+<td align="right">77</td>
+<td align="right">52.21</td>
+<td align="right">104.21</td>
+<td align="right">6.8</td>
+<td align="right">8.95</td>
+</tr>
+<tr>
+<td>baturaja</td>
+<td align="right">100</td>
+<td>ID</td>
+<td align="right">1541178345</td>
+<td align="right">98</td>
+<td align="right">-4.12</td>
+<td align="right">104.17</td>
+<td align="right">72.73</td>
+<td align="right">4.16</td>
+</tr>
+<tr>
+<td>marsaxlokk</td>
+<td align="right">0</td>
+<td>MT</td>
+<td align="right">1541175300</td>
+<td align="right">72</td>
+<td align="right">35.84</td>
+<td align="right">14.54</td>
+<td align="right">68.0</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>balkanabat</td>
+<td align="right">0</td>
+<td>TM</td>
+<td align="right">1541178346</td>
+<td align="right">45</td>
+<td align="right">39.51</td>
+<td align="right">54.36</td>
+<td align="right">36.37</td>
+<td align="right">5.73</td>
+</tr>
+<tr>
+<td>pederneiras</td>
+<td align="right">0</td>
+<td>BR</td>
+<td align="right">1541174400</td>
+<td align="right">55</td>
+<td align="right">-22.35</td>
+<td align="right">-48.78</td>
+<td align="right">87.8</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>nouadhibou</td>
+<td align="right">0</td>
+<td>MR</td>
+<td align="right">1541174400</td>
+<td align="right">50</td>
+<td align="right">20.93</td>
+<td align="right">-17.03</td>
+<td align="right">78.8</td>
+<td align="right">16.11</td>
+</tr>
+<tr>
+<td>sitka</td>
+<td align="right">64</td>
+<td>US</td>
+<td align="right">1541178347</td>
+<td align="right">37</td>
+<td align="right">37.17</td>
+<td align="right">-99.65</td>
+<td align="right">55.27</td>
+<td align="right">10.98</td>
+</tr>
+<tr>
+<td>kaka</td>
+<td align="right">32</td>
+<td>TM</td>
+<td align="right">1541178347</td>
+<td align="right">100</td>
+<td align="right">37.35</td>
+<td align="right">59.62</td>
+<td align="right">29.3</td>
+<td align="right">2.59</td>
+</tr>
+<tr>
+<td>salawagan</td>
+<td align="right">36</td>
+<td>PH</td>
+<td align="right">1541178348</td>
+<td align="right">88</td>
+<td align="right">7.71</td>
+<td align="right">125.11</td>
+<td align="right">69.4</td>
+<td align="right">1.92</td>
+</tr>
+<tr>
+<td>roald</td>
+<td align="right">75</td>
+<td>NO</td>
+<td align="right">1541175600</td>
+<td align="right">70</td>
+<td align="right">62.58</td>
+<td align="right">6.12</td>
+<td align="right">44.6</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>luderitz</td>
+<td align="right">12</td>
+<td>NA</td>
+<td align="right">1541174400</td>
+<td align="right">46</td>
+<td align="right">-26.65</td>
+<td align="right">15.16</td>
+<td align="right">69.8</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td>high prairie</td>
+<td align="right">92</td>
+<td>CA</td>
+<td align="right">1541178210</td>
+<td align="right">77</td>
+<td align="right">55.43</td>
+<td align="right">-116.48</td>
+<td align="right">32.45</td>
+<td align="right">3.83</td>
+</tr>
+<tr>
+<td>jiuquan</td>
+<td align="right">36</td>
+<td>CN</td>
+<td align="right">1541178349</td>
+<td align="right">74</td>
+<td align="right">39.73</td>
+<td align="right">98.49</td>
+<td align="right">20.35</td>
+<td align="right">3.6</td>
+</tr>
+<tr>
+<td>plettenberg bay</td>
+<td align="right">0</td>
+<td>ZA</td>
+<td align="right">1541178349</td>
+<td align="right">89</td>
+<td align="right">-34.05</td>
+<td align="right">23.37</td>
+<td align="right">63.91</td>
+<td align="right">25.41</td>
+</tr>
+<tr>
+<td>la seyne-sur-mer</td>
+<td align="right">75</td>
+<td>FR</td>
+<td align="right">1541176200</td>
+<td align="right">82</td>
+<td align="right">43.1</td>
+<td align="right">5.88</td>
+<td align="right">60.8</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>port hardy</td>
+<td align="right">75</td>
+<td>CA</td>
+<td align="right">1541176560</td>
+<td align="right">87</td>
+<td align="right">50.7</td>
+<td align="right">-127.42</td>
+<td align="right">51.8</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>hualmay</td>
+<td align="right">0</td>
+<td>PE</td>
+<td align="right">1541178351</td>
+<td align="right">62</td>
+<td align="right">-11.1</td>
+<td align="right">-77.61</td>
+<td align="right">73.18</td>
+<td align="right">4.72</td>
+</tr>
+<tr>
+<td>hodmezovasarhely</td>
+<td align="right">0</td>
+<td>HU</td>
+<td align="right">1541175300</td>
+<td align="right">63</td>
+<td align="right">46.42</td>
+<td align="right">20.33</td>
+<td align="right">66.2</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>la ligua</td>
+<td align="right">40</td>
+<td>CL</td>
+<td align="right">1541178000</td>
+<td align="right">77</td>
+<td align="right">-32.45</td>
+<td align="right">-71.23</td>
+<td align="right">66.2</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td>salalah</td>
+<td align="right">75</td>
+<td>OM</td>
+<td align="right">1541173800</td>
+<td align="right">69</td>
+<td align="right">17.01</td>
+<td align="right">54.1</td>
+<td align="right">82.4</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>fort nelson</td>
+<td align="right">90</td>
+<td>CA</td>
+<td align="right">1541174400</td>
+<td align="right">85</td>
+<td align="right">58.81</td>
+<td align="right">-122.69</td>
+<td align="right">21.2</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>chebenki</td>
+<td align="right">0</td>
+<td>RU</td>
+<td align="right">1541176200</td>
+<td align="right">59</td>
+<td align="right">51.93</td>
+<td align="right">55.71</td>
+<td align="right">37.4</td>
+<td align="right">11.18</td>
+</tr>
+<tr>
+<td>katobu</td>
+<td align="right">8</td>
+<td>ID</td>
+<td align="right">1541178353</td>
+<td align="right">100</td>
+<td align="right">-4.94</td>
+<td align="right">122.53</td>
+<td align="right">79.75</td>
+<td align="right">4.83</td>
+</tr>
+<tr>
+<td>samarai</td>
+<td align="right">80</td>
+<td>PG</td>
+<td align="right">1541178354</td>
+<td align="right">100</td>
+<td align="right">-10.62</td>
+<td align="right">150.67</td>
+<td align="right">79.34</td>
+<td align="right">13.89</td>
+</tr>
+<tr>
+<td>timaru</td>
+<td align="right">80</td>
+<td>NZ</td>
+<td align="right">1541178186</td>
+<td align="right">83</td>
+<td align="right">-44.39</td>
+<td align="right">171.25</td>
+<td align="right">52.34</td>
+<td align="right">6.96</td>
+</tr>
+<tr>
+<td>cairns</td>
+<td align="right">40</td>
+<td>AU</td>
+<td align="right">1541176200</td>
+<td align="right">78</td>
+<td align="right">-16.92</td>
+<td align="right">145.77</td>
+<td align="right">75.2</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>turukhansk</td>
+<td align="right">80</td>
+<td>RU</td>
+<td align="right">1541178355</td>
+<td align="right">79</td>
+<td align="right">65.8</td>
+<td align="right">87.96</td>
+<td align="right">15.53</td>
+<td align="right">15.35</td>
+</tr>
+<tr>
+<td>santiago</td>
+<td align="right">12</td>
+<td>BR</td>
+<td align="right">1541178355</td>
+<td align="right">64</td>
+<td align="right">-29.19</td>
+<td align="right">-54.87</td>
+<td align="right">85.6</td>
+<td align="right">8.3</td>
+</tr>
+<tr>
+<td>provideniya</td>
+<td align="right">76</td>
+<td>RU</td>
+<td align="right">1541178355</td>
+<td align="right">100</td>
+<td align="right">64.42</td>
+<td align="right">-173.23</td>
+<td align="right">36.77</td>
+<td align="right">21.72</td>
+</tr>
+<tr>
+<td>oyama</td>
+<td align="right">75</td>
+<td>JP</td>
+<td align="right">1541174400</td>
+<td align="right">87</td>
+<td align="right">36.31</td>
+<td align="right">139.8</td>
+<td align="right">48.2</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>new norfolk</td>
+<td align="right">20</td>
+<td>AU</td>
+<td align="right">1541176380</td>
+<td align="right">72</td>
+<td align="right">-42.78</td>
+<td align="right">147.06</td>
+<td align="right">46.4</td>
+<td align="right">19.46</td>
+</tr>
+<tr>
+<td>chara</td>
+<td align="right">44</td>
+<td>RU</td>
+<td align="right">1541178357</td>
+<td align="right">52</td>
+<td align="right">56.9</td>
+<td align="right">118.26</td>
+<td align="right">1.4</td>
+<td align="right">3.6</td>
+</tr>
+<tr>
+<td>torbay</td>
+<td align="right">75</td>
+<td>CA</td>
+<td align="right">1541174400</td>
+<td align="right">75</td>
+<td align="right">47.66</td>
+<td align="right">-52.73</td>
+<td align="right">44.6</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>alihe</td>
+<td align="right">92</td>
+<td>CN</td>
+<td align="right">1541178358</td>
+<td align="right">78</td>
+<td align="right">50.57</td>
+<td align="right">123.73</td>
+<td align="right">33.44</td>
+<td align="right">6.17</td>
+</tr>
+<tr>
+<td>oussouye</td>
+<td align="right">0</td>
+<td>SN</td>
+<td align="right">1541174400</td>
+<td align="right">50</td>
+<td align="right">12.49</td>
+<td align="right">-16.54</td>
+<td align="right">96.8</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>fortuna</td>
+<td align="right">90</td>
+<td>US</td>
+<td align="right">1541176800</td>
+<td align="right">93</td>
+<td align="right">40.6</td>
+<td align="right">-124.16</td>
+<td align="right">57.2</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>kirakira</td>
+<td align="right">68</td>
+<td>SB</td>
+<td align="right">1541178359</td>
+<td align="right">100</td>
+<td align="right">-10.46</td>
+<td align="right">161.92</td>
+<td align="right">81.37</td>
+<td align="right">21.72</td>
+</tr>
+<tr>
+<td>thompson</td>
+<td align="right">75</td>
+<td>CA</td>
+<td align="right">1541174400</td>
+<td align="right">78</td>
+<td align="right">55.74</td>
+<td align="right">-97.86</td>
+<td align="right">17.6</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>scarborough</td>
+<td align="right">40</td>
+<td>TT</td>
+<td align="right">1541174400</td>
+<td align="right">74</td>
+<td align="right">11.18</td>
+<td align="right">-60.73</td>
+<td align="right">84.2</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>tuatapere</td>
+<td align="right">24</td>
+<td>NZ</td>
+<td align="right">1541178360</td>
+<td align="right">75</td>
+<td align="right">-46.13</td>
+<td align="right">167.69</td>
+<td align="right">60.4</td>
+<td align="right">21.27</td>
+</tr>
+<tr>
+<td>cabo san lucas</td>
+<td align="right">5</td>
+<td>MX</td>
+<td align="right">1541173380</td>
+<td align="right">65</td>
+<td align="right">22.89</td>
+<td align="right">-109.91</td>
+<td align="right">77.0</td>
+<td align="right">6.4</td>
+</tr>
+<tr>
+<td>meadow lake</td>
+<td align="right">90</td>
+<td>CA</td>
+<td align="right">1541174400</td>
+<td align="right">86</td>
+<td align="right">54.13</td>
+<td align="right">-108.44</td>
+<td align="right">30.2</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>fulton</td>
+<td align="right">90</td>
+<td>US</td>
+<td align="right">1541177580</td>
+<td align="right">87</td>
+<td align="right">38.85</td>
+<td align="right">-91.95</td>
+<td align="right">46.94</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>hun</td>
+<td align="right">88</td>
+<td>LY</td>
+<td align="right">1541178422</td>
+<td align="right">38</td>
+<td align="right">29.13</td>
+<td align="right">15.95</td>
+<td align="right">70.03</td>
+<td align="right">3.83</td>
+</tr>
+<tr>
+<td>san cristobal</td>
+<td align="right">80</td>
+<td>EC</td>
+<td align="right">1541178422</td>
+<td align="right">100</td>
+<td align="right">-1.02</td>
+<td align="right">-79.44</td>
+<td align="right">65.62</td>
+<td align="right">3.15</td>
+</tr>
+<tr>
+<td>rio grande</td>
+<td align="right">20</td>
+<td>BR</td>
+<td align="right">1541174400</td>
+<td align="right">56</td>
+<td align="right">-32.03</td>
+<td align="right">-52.1</td>
+<td align="right">69.8</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>ndola</td>
+<td align="right">64</td>
+<td>ZM</td>
+<td align="right">1541178424</td>
+<td align="right">57</td>
+<td align="right">-12.97</td>
+<td align="right">28.64</td>
+<td align="right">75.02</td>
+<td align="right">2.93</td>
+</tr>
+<tr>
+<td>abha</td>
+<td align="right">20</td>
+<td>SA</td>
+<td align="right">1541174400</td>
+<td align="right">59</td>
+<td align="right">18.22</td>
+<td align="right">42.5</td>
+<td align="right">66.2</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>blagoveshchenka</td>
+<td align="right">92</td>
+<td>RU</td>
+<td align="right">1541178425</td>
+<td align="right">96</td>
+<td align="right">52.83</td>
+<td align="right">79.87</td>
+<td align="right">29.26</td>
+<td align="right">23.51</td>
+</tr>
+<tr>
+<td>souillac</td>
+<td align="right">20</td>
+<td>MU</td>
+<td align="right">1541174400</td>
+<td align="right">73</td>
+<td align="right">-20.52</td>
+<td align="right">57.52</td>
+<td align="right">77.0</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>beyneu</td>
+<td align="right">0</td>
+<td>KZ</td>
+<td align="right">1541178426</td>
+<td align="right">68</td>
+<td align="right">45.32</td>
+<td align="right">55.19</td>
+<td align="right">18.37</td>
+<td align="right">2.93</td>
+</tr>
+<tr>
+<td>dikson</td>
+<td align="right">44</td>
+<td>RU</td>
+<td align="right">1541178497</td>
+<td align="right">100</td>
+<td align="right">73.51</td>
+<td align="right">80.55</td>
+<td align="right">22.64</td>
+<td align="right">6.85</td>
+</tr>
+<tr>
+<td>formosa</td>
+<td align="right">90</td>
+<td>AR</td>
+<td align="right">1541174400</td>
+<td align="right">83</td>
+<td align="right">-26.19</td>
+<td align="right">-58.17</td>
+<td align="right">80.6</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>moyale</td>
+<td align="right">88</td>
+<td>KE</td>
+<td align="right">1541178428</td>
+<td align="right">73</td>
+<td align="right">3.52</td>
+<td align="right">39.06</td>
+<td align="right">73.4</td>
+<td align="right">6.17</td>
+</tr>
+<tr>
+<td>charlestown</td>
+<td align="right">90</td>
+<td>US</td>
+<td align="right">1541177760</td>
+<td align="right">100</td>
+<td align="right">41.38</td>
+<td align="right">-71.64</td>
+<td align="right">66.02</td>
+<td align="right">16.11</td>
+</tr>
+<tr>
+<td>launceston</td>
+<td align="right">0</td>
+<td>AU</td>
+<td align="right">1541176200</td>
+<td align="right">76</td>
+<td align="right">-41.43</td>
+<td align="right">147.14</td>
+<td align="right">44.6</td>
+<td align="right">24.16</td>
+</tr>
+<tr>
+<td>namibe</td>
+<td align="right">0</td>
+<td>AO</td>
+<td align="right">1541178429</td>
+<td align="right">100</td>
+<td align="right">-15.19</td>
+<td align="right">12.15</td>
+<td align="right">72.73</td>
+<td align="right">10.42</td>
+</tr>
+<tr>
+<td>azul</td>
+<td align="right">100</td>
+<td>AR</td>
+<td align="right">1541178429</td>
+<td align="right">85</td>
+<td align="right">-36.78</td>
+<td align="right">-59.86</td>
+<td align="right">61.34</td>
+<td align="right">5.73</td>
+</tr>
+<tr>
+<td>pyinmana</td>
+<td align="right">8</td>
+<td>MM</td>
+<td align="right">1541178430</td>
+<td align="right">87</td>
+<td align="right">19.74</td>
+<td align="right">96.21</td>
+<td align="right">72.05</td>
+<td align="right">2.37</td>
+</tr>
+<tr>
+<td>los llanos de aridane</td>
+<td align="right">75</td>
+<td>ES</td>
+<td align="right">1541176200</td>
+<td align="right">73</td>
+<td align="right">28.66</td>
+<td align="right">-17.92</td>
+<td align="right">71.6</td>
+<td align="right">16.11</td>
+</tr>
+<tr>
+<td>peniche</td>
+<td align="right">75</td>
+<td>PT</td>
+<td align="right">1541176200</td>
+<td align="right">82</td>
+<td align="right">39.36</td>
+<td align="right">-9.38</td>
+<td align="right">64.4</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>cap malheureux</td>
+<td align="right">20</td>
+<td>MU</td>
+<td align="right">1541174400</td>
+<td align="right">73</td>
+<td align="right">-19.98</td>
+<td align="right">57.61</td>
+<td align="right">77.0</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>selenginsk</td>
+<td align="right">0</td>
+<td>RU</td>
+<td align="right">1541176200</td>
+<td align="right">61</td>
+<td align="right">52.01</td>
+<td align="right">106.87</td>
+<td align="right">14.0</td>
+<td align="right">6.71</td>
+</tr>
+<tr>
+<td>silver city</td>
+<td align="right">1</td>
+<td>US</td>
+<td align="right">1541177700</td>
+<td align="right">31</td>
+<td align="right">32.77</td>
+<td align="right">-108.28</td>
+<td align="right">56.48</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>sorong</td>
+<td align="right">12</td>
+<td>ID</td>
+<td align="right">1541178432</td>
+<td align="right">100</td>
+<td align="right">-0.86</td>
+<td align="right">131.25</td>
+<td align="right">79.34</td>
+<td align="right">2.15</td>
+</tr>
+<tr>
+<td>collie</td>
+<td align="right">68</td>
+<td>AU</td>
+<td align="right">1541178433</td>
+<td align="right">79</td>
+<td align="right">-33.36</td>
+<td align="right">116.15</td>
+<td align="right">57.88</td>
+<td align="right">9.31</td>
+</tr>
+<tr>
+<td>vilhena</td>
+<td align="right">20</td>
+<td>BR</td>
+<td align="right">1541174400</td>
+<td align="right">58</td>
+<td align="right">-12.74</td>
+<td align="right">-60.15</td>
+<td align="right">87.8</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>adrar</td>
+<td align="right">0</td>
+<td>DZ</td>
+<td align="right">1541174400</td>
+<td align="right">24</td>
+<td align="right">27.87</td>
+<td align="right">-0.29</td>
+<td align="right">80.6</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td>maralal</td>
+<td align="right">8</td>
+<td>KE</td>
+<td align="right">1541178434</td>
+<td align="right">94</td>
+<td align="right">1.1</td>
+<td align="right">36.7</td>
+<td align="right">58.37</td>
+<td align="right">2.59</td>
+</tr>
+<tr>
+<td>huarmey</td>
+<td align="right">0</td>
+<td>PE</td>
+<td align="right">1541178434</td>
+<td align="right">51</td>
+<td align="right">-10.07</td>
+<td align="right">-78.15</td>
+<td align="right">75.38</td>
+<td align="right">4.16</td>
+</tr>
+<tr>
+<td>bethel</td>
+<td align="right">1</td>
+<td>US</td>
+<td align="right">1541173980</td>
+<td align="right">87</td>
+<td align="right">60.79</td>
+<td align="right">-161.76</td>
+<td align="right">17.06</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td>aswan</td>
+<td align="right">20</td>
+<td>EG</td>
+<td align="right">1541174400</td>
+<td align="right">37</td>
+<td align="right">24.09</td>
+<td align="right">32.9</td>
+<td align="right">86.0</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>longyearbyen</td>
+<td align="right">75</td>
+<td>SJ</td>
+<td align="right">1541173800</td>
+<td align="right">73</td>
+<td align="right">78.22</td>
+<td align="right">15.64</td>
+<td align="right">24.8</td>
+<td align="right">21.92</td>
+</tr>
+<tr>
+<td>helong</td>
+<td align="right">92</td>
+<td>CN</td>
+<td align="right">1541178436</td>
+<td align="right">99</td>
+<td align="right">25.94</td>
+<td align="right">116.13</td>
+<td align="right">56.8</td>
+<td align="right">2.59</td>
+</tr>
+<tr>
+<td>port macquarie</td>
+<td align="right">88</td>
+<td>AU</td>
+<td align="right">1541174400</td>
+<td align="right">47</td>
+<td align="right">-31.43</td>
+<td align="right">152.91</td>
+<td align="right">75.2</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>moron</td>
+<td align="right">92</td>
+<td>MN</td>
+<td align="right">1541178436</td>
+<td align="right">63</td>
+<td align="right">47.38</td>
+<td align="right">110.32</td>
+<td align="right">22.6</td>
+<td align="right">12.44</td>
+</tr>
+<tr>
+<td>dalvik</td>
+<td align="right">20</td>
+<td>IS</td>
+<td align="right">1541174400</td>
+<td align="right">74</td>
+<td align="right">65.97</td>
+<td align="right">-18.53</td>
+<td align="right">30.2</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>nioki</td>
+<td align="right">32</td>
+<td>CD</td>
+<td align="right">1541178437</td>
+<td align="right">91</td>
+<td align="right">-2.72</td>
+<td align="right">17.69</td>
+<td align="right">76.06</td>
+<td align="right">3.15</td>
+</tr>
+<tr>
+<td>mehamn</td>
+<td align="right">0</td>
+<td>NO</td>
+<td align="right">1541177400</td>
+<td align="right">64</td>
+<td align="right">71.03</td>
+<td align="right">27.85</td>
+<td align="right">42.8</td>
+<td align="right">25.28</td>
+</tr>
+<tr>
+<td>general roca</td>
+<td align="right">40</td>
+<td>AR</td>
+<td align="right">1541178000</td>
+<td align="right">56</td>
+<td align="right">-39.03</td>
+<td align="right">-67.58</td>
+<td align="right">68.0</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>poretskoye</td>
+<td align="right">64</td>
+<td>RU</td>
+<td align="right">1541178438</td>
+<td align="right">82</td>
+<td align="right">55.2</td>
+<td align="right">46.33</td>
+<td align="right">30.97</td>
+<td align="right">8.19</td>
+</tr>
+<tr>
+<td>cherskiy</td>
+<td align="right">32</td>
+<td>RU</td>
+<td align="right">1541178439</td>
+<td align="right">58</td>
+<td align="right">68.75</td>
+<td align="right">161.3</td>
+<td align="right">-1.44</td>
+<td align="right">0.69</td>
+</tr>
+<tr>
+<td>yen bai</td>
+<td align="right">0</td>
+<td>VN</td>
+<td align="right">1541178439</td>
+<td align="right">89</td>
+<td align="right">21.7</td>
+<td align="right">104.87</td>
+<td align="right">58.64</td>
+<td align="right">2.37</td>
+</tr>
+<tr>
+<td>cabinda</td>
+<td align="right">0</td>
+<td>AO</td>
+<td align="right">1541178439</td>
+<td align="right">100</td>
+<td align="right">-5.56</td>
+<td align="right">12.19</td>
+<td align="right">78.4</td>
+<td align="right">9.75</td>
+</tr>
+<tr>
+<td>ancud</td>
+<td align="right">92</td>
+<td>CL</td>
+<td align="right">1541178440</td>
+<td align="right">84</td>
+<td align="right">-41.87</td>
+<td align="right">-73.83</td>
+<td align="right">52.75</td>
+<td align="right">3.27</td>
+</tr>
+<tr>
+<td>russell</td>
+<td align="right">0</td>
+<td>NZ</td>
+<td align="right">1541178440</td>
+<td align="right">94</td>
+<td align="right">-35.26</td>
+<td align="right">174.12</td>
+<td align="right">45.55</td>
+<td align="right">5.95</td>
+</tr>
+<tr>
+<td>tura</td>
+<td align="right">36</td>
+<td>RU</td>
+<td align="right">1541178440</td>
+<td align="right">79</td>
+<td align="right">64.27</td>
+<td align="right">100.22</td>
+<td align="right">5.95</td>
+<td align="right">3.94</td>
+</tr>
+<tr>
+<td>araouane</td>
+<td align="right">0</td>
+<td>ML</td>
+<td align="right">1541178441</td>
+<td align="right">25</td>
+<td align="right">18.9</td>
+<td align="right">-3.53</td>
+<td align="right">82.04</td>
+<td align="right">6.51</td>
+</tr>
+<tr>
+<td>ostrovnoy</td>
+<td align="right">20</td>
+<td>RU</td>
+<td align="right">1541178441</td>
+<td align="right">92</td>
+<td align="right">68.05</td>
+<td align="right">39.51</td>
+<td align="right">27.59</td>
+<td align="right">8.97</td>
+</tr>
+<tr>
+<td>ambulu</td>
+<td align="right">68</td>
+<td>ID</td>
+<td align="right">1541178441</td>
+<td align="right">100</td>
+<td align="right">-8.35</td>
+<td align="right">113.61</td>
+<td align="right">78.67</td>
+<td align="right">5.5</td>
+</tr>
+<tr>
+<td>carauari</td>
+<td align="right">20</td>
+<td>BR</td>
+<td align="right">1541178442</td>
+<td align="right">70</td>
+<td align="right">-4.88</td>
+<td align="right">-66.9</td>
+<td align="right">88.57</td>
+<td align="right">3.38</td>
+</tr>
+<tr>
+<td>vitoria do mearim</td>
+<td align="right">56</td>
+<td>BR</td>
+<td align="right">1541178442</td>
+<td align="right">65</td>
+<td align="right">-3.46</td>
+<td align="right">-44.87</td>
+<td align="right">88.75</td>
+<td align="right">4.94</td>
+</tr>
+<tr>
+<td>port-cartier</td>
+<td align="right">75</td>
+<td>CA</td>
+<td align="right">1541174400</td>
+<td align="right">80</td>
+<td align="right">50.03</td>
+<td align="right">-66.88</td>
+<td align="right">39.2</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>khandyga</td>
+<td align="right">68</td>
+<td>RU</td>
+<td align="right">1541178503</td>
+<td align="right">73</td>
+<td align="right">62.65</td>
+<td align="right">135.58</td>
+<td align="right">15.67</td>
+<td align="right">8.08</td>
+</tr>
+<tr>
+<td>arani</td>
+<td align="right">75</td>
+<td>BO</td>
+<td align="right">1541174400</td>
+<td align="right">31</td>
+<td align="right">-17.57</td>
+<td align="right">-65.77</td>
+<td align="right">77.0</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>saint george</td>
+<td align="right">90</td>
+<td>BM</td>
+<td align="right">1541174100</td>
+<td align="right">57</td>
+<td align="right">32.38</td>
+<td align="right">-64.68</td>
+<td align="right">75.2</td>
+<td align="right">16.11</td>
+</tr>
+<tr>
+<td>ambilobe</td>
+<td align="right">0</td>
+<td>MG</td>
+<td align="right">1541178504</td>
+<td align="right">50</td>
+<td align="right">-13.19</td>
+<td align="right">49.05</td>
+<td align="right">79.66</td>
+<td align="right">10.98</td>
+</tr>
+<tr>
+<td>tabou</td>
+<td align="right">88</td>
+<td>CI</td>
+<td align="right">1541178504</td>
+<td align="right">100</td>
+<td align="right">4.42</td>
+<td align="right">-7.36</td>
+<td align="right">81.1</td>
+<td align="right">11.1</td>
+</tr>
+<tr>
+<td>karuzi</td>
+<td align="right">48</td>
+<td>BI</td>
+<td align="right">1541178505</td>
+<td align="right">95</td>
+<td align="right">-3.1</td>
+<td align="right">30.16</td>
+<td align="right">60.08</td>
+<td align="right">2.93</td>
+</tr>
+<tr>
+<td>aklavik</td>
+<td align="right">75</td>
+<td>CA</td>
+<td align="right">1541174400</td>
+<td align="right">92</td>
+<td align="right">68.22</td>
+<td align="right">-135.01</td>
+<td align="right">12.2</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>martinsburg</td>
+<td align="right">1</td>
+<td>US</td>
+<td align="right">1541177700</td>
+<td align="right">77</td>
+<td align="right">39.46</td>
+<td align="right">-77.96</td>
+<td align="right">69.8</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>hithadhoo</td>
+<td align="right">88</td>
+<td>MV</td>
+<td align="right">1541178506</td>
+<td align="right">100</td>
+<td align="right">-0.6</td>
+<td align="right">73.08</td>
+<td align="right">82.49</td>
+<td align="right">12.77</td>
+</tr>
+<tr>
+<td>namatanai</td>
+<td align="right">88</td>
+<td>PG</td>
+<td align="right">1541178506</td>
+<td align="right">100</td>
+<td align="right">-3.66</td>
+<td align="right">152.44</td>
+<td align="right">79.21</td>
+<td align="right">7.74</td>
+</tr>
+<tr>
+<td>kangaatsiaq</td>
+<td align="right">88</td>
+<td>GL</td>
+<td align="right">1541178507</td>
+<td align="right">100</td>
+<td align="right">68.31</td>
+<td align="right">-53.46</td>
+<td align="right">18.73</td>
+<td align="right">20.27</td>
+</tr>
+<tr>
+<td>bang saphan</td>
+<td align="right">0</td>
+<td>TH</td>
+<td align="right">1541178507</td>
+<td align="right">87</td>
+<td align="right">11.21</td>
+<td align="right">99.51</td>
+<td align="right">77.5</td>
+<td align="right">5.39</td>
+</tr>
+<tr>
+<td>pisco</td>
+<td align="right">75</td>
+<td>PE</td>
+<td align="right">1541174400</td>
+<td align="right">30</td>
+<td align="right">-13.71</td>
+<td align="right">-76.2</td>
+<td align="right">71.6</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td>ponta delgada</td>
+<td align="right">75</td>
+<td>PT</td>
+<td align="right">1541176200</td>
+<td align="right">77</td>
+<td align="right">37.73</td>
+<td align="right">-25.67</td>
+<td align="right">69.8</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>muros</td>
+<td align="right">20</td>
+<td>ES</td>
+<td align="right">1541176200</td>
+<td align="right">87</td>
+<td align="right">42.77</td>
+<td align="right">-9.06</td>
+<td align="right">59.0</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>batagay-alyta</td>
+<td align="right">0</td>
+<td>RU</td>
+<td align="right">1541178509</td>
+<td align="right">25</td>
+<td align="right">67.8</td>
+<td align="right">130.41</td>
+<td align="right">-18.99</td>
+<td align="right">3.38</td>
+</tr>
+<tr>
+<td>constitucion</td>
+<td align="right">5</td>
+<td>MX</td>
+<td align="right">1541173320</td>
+<td align="right">58</td>
+<td align="right">23.99</td>
+<td align="right">-104.67</td>
+<td align="right">55.4</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>lerwick</td>
+<td align="right">20</td>
+<td>GB</td>
+<td align="right">1541177400</td>
+<td align="right">86</td>
+<td align="right">60.15</td>
+<td align="right">-1.15</td>
+<td align="right">46.4</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>xai-xai</td>
+<td align="right">88</td>
+<td>MZ</td>
+<td align="right">1541178510</td>
+<td align="right">100</td>
+<td align="right">-25.04</td>
+<td align="right">33.64</td>
+<td align="right">68.5</td>
+<td align="right">26.98</td>
+</tr>
+<tr>
+<td>fairbanks</td>
+<td align="right">1</td>
+<td>US</td>
+<td align="right">1541174280</td>
+<td align="right">84</td>
+<td align="right">64.84</td>
+<td align="right">-147.72</td>
+<td align="right">5.0</td>
+<td align="right">7.07</td>
+</tr>
+<tr>
+<td>awjilah</td>
+<td align="right">12</td>
+<td>LY</td>
+<td align="right">1541178511</td>
+<td align="right">54</td>
+<td align="right">29.14</td>
+<td align="right">21.3</td>
+<td align="right">66.29</td>
+<td align="right">8.19</td>
+</tr>
+<tr>
+<td>kabinda</td>
+<td align="right">80</td>
+<td>CD</td>
+<td align="right">1541178511</td>
+<td align="right">97</td>
+<td align="right">-6.14</td>
+<td align="right">24.49</td>
+<td align="right">68.68</td>
+<td align="right">3.49</td>
+</tr>
+<tr>
+<td>olinda</td>
+<td align="right">75</td>
+<td>BR</td>
+<td align="right">1541174400</td>
+<td align="right">65</td>
+<td align="right">-22.82</td>
+<td align="right">-43.41</td>
+<td align="right">82.4</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>port elizabeth</td>
+<td align="right">0</td>
+<td>ZA</td>
+<td align="right">1541174400</td>
+<td align="right">77</td>
+<td align="right">-33.92</td>
+<td align="right">25.57</td>
+<td align="right">62.6</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td>furtwangen</td>
+<td align="right">0</td>
+<td>DE</td>
+<td align="right">1541177400</td>
+<td align="right">76</td>
+<td align="right">48.05</td>
+<td align="right">8.22</td>
+<td align="right">51.8</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>willowmore</td>
+<td align="right">0</td>
+<td>ZA</td>
+<td align="right">1541178513</td>
+<td align="right">32</td>
+<td align="right">-33.3</td>
+<td align="right">23.49</td>
+<td align="right">59.5</td>
+<td align="right">5.95</td>
+</tr>
+<tr>
+<td>koumac</td>
+<td align="right">24</td>
+<td>NC</td>
+<td align="right">1541178513</td>
+<td align="right">85</td>
+<td align="right">-20.56</td>
+<td align="right">164.28</td>
+<td align="right">70.97</td>
+<td align="right">12.21</td>
+</tr>
+<tr>
+<td>xining</td>
+<td align="right">64</td>
+<td>CN</td>
+<td align="right">1541178514</td>
+<td align="right">96</td>
+<td align="right">36.62</td>
+<td align="right">101.77</td>
+<td align="right">25.07</td>
+<td align="right">2.59</td>
+</tr>
+<tr>
+<td>springdale</td>
+<td align="right">56</td>
+<td>CA</td>
+<td align="right">1541178514</td>
+<td align="right">83</td>
+<td align="right">49.5</td>
+<td align="right">-56.06</td>
+<td align="right">44.02</td>
+<td align="right">14.45</td>
+</tr>
+<tr>
+<td>hagere selam</td>
+<td align="right">76</td>
+<td>ET</td>
+<td align="right">1541178515</td>
+<td align="right">94</td>
+<td align="right">6.48</td>
+<td align="right">38.52</td>
+<td align="right">59.63</td>
+<td align="right">2.82</td>
+</tr>
+<tr>
+<td>sapa</td>
+<td align="right">20</td>
+<td>PH</td>
+<td align="right">1541174400</td>
+<td align="right">88</td>
+<td align="right">14.32</td>
+<td align="right">120.76</td>
+<td align="right">82.4</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>rajbiraj</td>
+<td align="right">20</td>
+<td>NP</td>
+<td align="right">1541178516</td>
+<td align="right">79</td>
+<td align="right">26.54</td>
+<td align="right">86.75</td>
+<td align="right">69.89</td>
+<td align="right">2.59</td>
+</tr>
+<tr>
+<td>narasannapeta</td>
+<td align="right">68</td>
+<td>IN</td>
+<td align="right">1541178516</td>
+<td align="right">94</td>
+<td align="right">18.42</td>
+<td align="right">84.04</td>
+<td align="right">74.08</td>
+<td align="right">2.59</td>
+</tr>
+<tr>
+<td>marang</td>
+<td align="right">75</td>
+<td>MY</td>
+<td align="right">1541174400</td>
+<td align="right">88</td>
+<td align="right">5.21</td>
+<td align="right">103.21</td>
+<td align="right">82.4</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td>alofi</td>
+<td align="right">92</td>
+<td>NU</td>
+<td align="right">1541178517</td>
+<td align="right">100</td>
+<td align="right">-19.06</td>
+<td align="right">-169.92</td>
+<td align="right">75.25</td>
+<td align="right">14.9</td>
+</tr>
+<tr>
+<td>srednekolymsk</td>
+<td align="right">56</td>
+<td>RU</td>
+<td align="right">1541178517</td>
+<td align="right">76</td>
+<td align="right">67.46</td>
+<td align="right">153.71</td>
+<td align="right">7.57</td>
+<td align="right">4.38</td>
+</tr>
+<tr>
+<td>guerrero negro</td>
+<td align="right">0</td>
+<td>MX</td>
+<td align="right">1541178518</td>
+<td align="right">38</td>
+<td align="right">27.97</td>
+<td align="right">-114.04</td>
+<td align="right">77.23</td>
+<td align="right">3.38</td>
+</tr>
+<tr>
+<td>storm lake</td>
+<td align="right">75</td>
+<td>US</td>
+<td align="right">1541176500</td>
+<td align="right">87</td>
+<td align="right">42.64</td>
+<td align="right">-95.21</td>
+<td align="right">44.96</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td>skibbereen</td>
+<td align="right">75</td>
+<td>IE</td>
+<td align="right">1541178000</td>
+<td align="right">93</td>
+<td align="right">51.55</td>
+<td align="right">-9.27</td>
+<td align="right">50.0</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td>belyy yar</td>
+<td align="right">0</td>
+<td>RU</td>
+<td align="right">1541176200</td>
+<td align="right">57</td>
+<td align="right">53.6</td>
+<td align="right">91.39</td>
+<td align="right">23.0</td>
+<td align="right">13.42</td>
+</tr>
+<tr>
+<td>richards bay</td>
+<td align="right">92</td>
+<td>ZA</td>
+<td align="right">1541178520</td>
+<td align="right">100</td>
+<td align="right">-28.77</td>
+<td align="right">32.06</td>
+<td align="right">60.8</td>
+<td align="right">5.61</td>
+</tr>
+<tr>
+<td>tanout</td>
+<td align="right">0</td>
+<td>NE</td>
+<td align="right">1541178520</td>
+<td align="right">9</td>
+<td align="right">14.97</td>
+<td align="right">8.88</td>
+<td align="right">79.3</td>
+<td align="right">7.63</td>
+</tr>
+<tr>
+<td>visnes</td>
+<td align="right">40</td>
+<td>NO</td>
+<td align="right">1541177400</td>
+<td align="right">76</td>
+<td align="right">59.36</td>
+<td align="right">5.22</td>
+<td align="right">48.2</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td>the valley</td>
+<td align="right">75</td>
+<td>AI</td>
+<td align="right">1541174400</td>
+<td align="right">83</td>
+<td align="right">18.22</td>
+<td align="right">-63.06</td>
+<td align="right">86.0</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>mvomero</td>
+<td align="right">0</td>
+<td>TZ</td>
+<td align="right">1541178521</td>
+<td align="right">59</td>
+<td align="right">-6.3</td>
+<td align="right">37.45</td>
+<td align="right">77.5</td>
+<td align="right">8.41</td>
+</tr>
+<tr>
+<td>akhalgori</td>
+<td align="right">90</td>
+<td>GE</td>
+<td align="right">1541176200</td>
+<td align="right">93</td>
+<td align="right">42.13</td>
+<td align="right">44.48</td>
+<td align="right">48.2</td>
+<td align="right">3.6</td>
+</tr>
+<tr>
+<td>juegang</td>
+<td align="right">64</td>
+<td>CN</td>
+<td align="right">1541178522</td>
+<td align="right">98</td>
+<td align="right">32.31</td>
+<td align="right">121.18</td>
+<td align="right">56.57</td>
+<td align="right">8.86</td>
+</tr>
+<tr>
+<td>pano polemidia</td>
+<td align="right">0</td>
+<td>CY</td>
+<td align="right">1541178000</td>
+<td align="right">64</td>
+<td align="right">34.7</td>
+<td align="right">33</td>
+<td align="right">71.6</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>naze</td>
+<td align="right">100</td>
+<td>JP</td>
+<td align="right">1541178524</td>
+<td align="right">100</td>
+<td align="right">28.37</td>
+<td align="right">129.48</td>
+<td align="right">72.73</td>
+<td align="right">12.66</td>
+</tr>
+<tr>
+<td>sassandra</td>
+<td align="right">8</td>
+<td>CI</td>
+<td align="right">1541178584</td>
+<td align="right">97</td>
+<td align="right">4.95</td>
+<td align="right">-6.09</td>
+<td align="right">81.5</td>
+<td align="right">12.1</td>
+</tr>
+<tr>
+<td>esperance</td>
+<td align="right">80</td>
+<td>AU</td>
+<td align="right">1541178585</td>
+<td align="right">93</td>
+<td align="right">-33.86</td>
+<td align="right">121.89</td>
+<td align="right">55.72</td>
+<td align="right">7.85</td>
+</tr>
+<tr>
+<td>ugoofaaru</td>
+<td align="right">0</td>
+<td>MV</td>
+<td align="right">1541178585</td>
+<td align="right">100</td>
+<td align="right">5.67</td>
+<td align="right">73</td>
+<td align="right">83.35</td>
+<td align="right">4.83</td>
+</tr>
+<tr>
+<td>dyurtyuli</td>
+<td align="right">88</td>
+<td>RU</td>
+<td align="right">1541178585</td>
+<td align="right">96</td>
+<td align="right">55.49</td>
+<td align="right">54.86</td>
+<td align="right">34.88</td>
+<td align="right">9.98</td>
+</tr>
+<tr>
+<td>hamilton</td>
+<td align="right">90</td>
+<td>BM</td>
+<td align="right">1541174100</td>
+<td align="right">57</td>
+<td align="right">32.3</td>
+<td align="right">-64.78</td>
+<td align="right">75.2</td>
+<td align="right">16.11</td>
+</tr>
+<tr>
+<td>dom pedrito</td>
+<td align="right">0</td>
+<td>BR</td>
+<td align="right">1541178586</td>
+<td align="right">61</td>
+<td align="right">-30.98</td>
+<td align="right">-54.67</td>
+<td align="right">80.24</td>
+<td align="right">8.75</td>
+</tr>
+<tr>
+<td>qasigiannguit</td>
+<td align="right">75</td>
+<td>GL</td>
+<td align="right">1541177400</td>
+<td align="right">56</td>
+<td align="right">68.82</td>
+<td align="right">-51.19</td>
+<td align="right">14.0</td>
+<td align="right">16.11</td>
+</tr>
+<tr>
+<td>libreville</td>
+<td align="right">40</td>
+<td>GA</td>
+<td align="right">1541176200</td>
+<td align="right">83</td>
+<td align="right">0.39</td>
+<td align="right">9.45</td>
+<td align="right">80.6</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>svencioneliai</td>
+<td align="right">32</td>
+<td>LT</td>
+<td align="right">1541178587</td>
+<td align="right">93</td>
+<td align="right">55.17</td>
+<td align="right">26</td>
+<td align="right">53.83</td>
+<td align="right">11.21</td>
+</tr>
+<tr>
+<td>shushenskoye</td>
+<td align="right">0</td>
+<td>RU</td>
+<td align="right">1541176200</td>
+<td align="right">57</td>
+<td align="right">53.33</td>
+<td align="right">91.95</td>
+<td align="right">23.0</td>
+<td align="right">13.42</td>
+</tr>
+<tr>
+<td>rensvik</td>
+<td align="right">75</td>
+<td>NO</td>
+<td align="right">1541177400</td>
+<td align="right">81</td>
+<td align="right">63.1</td>
+<td align="right">7.82</td>
+<td align="right">44.6</td>
+<td align="right">20.8</td>
+</tr>
+<tr>
+<td>lobito</td>
+<td align="right">0</td>
+<td>AO</td>
+<td align="right">1541178588</td>
+<td align="right">71</td>
+<td align="right">-12.35</td>
+<td align="right">13.55</td>
+<td align="right">75.07</td>
+<td align="right">2.37</td>
+</tr>
+<tr>
+<td>zemio</td>
+<td align="right">44</td>
+<td>CF</td>
+<td align="right">1541178588</td>
+<td align="right">90</td>
+<td align="right">5.02</td>
+<td align="right">25.13</td>
+<td align="right">75.52</td>
+<td align="right">2.71</td>
+</tr>
+<tr>
+<td>conde</td>
+<td align="right">0</td>
+<td>BR</td>
+<td align="right">1541178300</td>
+<td align="right">63</td>
+<td align="right">-11.81</td>
+<td align="right">-37.61</td>
+<td align="right">84.83</td>
+<td align="right">12.1</td>
+</tr>
+<tr>
+<td>banposh</td>
+<td align="right">0</td>
+<td>IN</td>
+<td align="right">1541178589</td>
+<td align="right">94</td>
+<td align="right">22.25</td>
+<td align="right">84.8</td>
+<td align="right">67.55</td>
+<td align="right">1.7</td>
+</tr>
+<tr>
+<td>frolishchi</td>
+<td align="right">92</td>
+<td>RU</td>
+<td align="right">1541178589</td>
+<td align="right">85</td>
+<td align="right">56.42</td>
+<td align="right">42.65</td>
+<td align="right">38.17</td>
+<td align="right">9.53</td>
+</tr>
+<tr>
+<td>cockburn town</td>
+<td align="right">0</td>
+<td>TC</td>
+<td align="right">1541178590</td>
+<td align="right">99</td>
+<td align="right">21.46</td>
+<td align="right">-71.14</td>
+<td align="right">82.04</td>
+<td align="right">18.25</td>
+</tr>
+<tr>
+<td>rawson</td>
+<td align="right">92</td>
+<td>AR</td>
+<td align="right">1541178591</td>
+<td align="right">64</td>
+<td align="right">-43.3</td>
+<td align="right">-65.11</td>
+<td align="right">57.97</td>
+<td align="right">12.55</td>
+</tr>
+<tr>
+<td>chinsali</td>
+<td align="right">100</td>
+<td>ZM</td>
+<td align="right">1541178592</td>
+<td align="right">45</td>
+<td align="right">-10.55</td>
+<td align="right">32.07</td>
+<td align="right">77.18</td>
+<td align="right">5.06</td>
+</tr>
+<tr>
+<td>along</td>
+<td align="right">64</td>
+<td>IN</td>
+<td align="right">1541178561</td>
+<td align="right">82</td>
+<td align="right">28.17</td>
+<td align="right">94.8</td>
+<td align="right">59.54</td>
+<td align="right">2.04</td>
+</tr>
+<tr>
+<td>yelizovo</td>
+<td align="right">0</td>
+<td>RU</td>
+<td align="right">1541174400</td>
+<td align="right">85</td>
+<td align="right">53.19</td>
+<td align="right">158.38</td>
+<td align="right">24.8</td>
+<td align="right">4.47</td>
+</tr>
+<tr>
+<td>bantogon</td>
+<td align="right">64</td>
+<td>PH</td>
+<td align="right">1541178593</td>
+<td align="right">91</td>
+<td align="right">6.53</td>
+<td align="right">124.03</td>
+<td align="right">73.4</td>
+<td align="right">2.93</td>
+</tr>
+<tr>
+<td>velenje</td>
+<td align="right">90</td>
+<td>SI</td>
+<td align="right">1541176200</td>
+<td align="right">93</td>
+<td align="right">46.36</td>
+<td align="right">15.12</td>
+<td align="right">57.2</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>kahului</td>
+<td align="right">20</td>
+<td>US</td>
+<td align="right">1541174400</td>
+<td align="right">84</td>
+<td align="right">20.89</td>
+<td align="right">-156.47</td>
+<td align="right">75.92</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>athabasca</td>
+<td align="right">88</td>
+<td>CA</td>
+<td align="right">1541178594</td>
+<td align="right">87</td>
+<td align="right">54.72</td>
+<td align="right">-113.29</td>
+<td align="right">29.62</td>
+<td align="right">12.33</td>
+</tr>
+<tr>
+<td>narsaq</td>
+<td align="right">20</td>
+<td>GL</td>
+<td align="right">1541177400</td>
+<td align="right">62</td>
+<td align="right">60.91</td>
+<td align="right">-46.05</td>
+<td align="right">24.8</td>
+<td align="right">1.12</td>
+</tr>
+<tr>
+<td>eyl</td>
+<td align="right">0</td>
+<td>SO</td>
+<td align="right">1541178595</td>
+<td align="right">96</td>
+<td align="right">7.98</td>
+<td align="right">49.82</td>
+<td align="right">77.86</td>
+<td align="right">9.86</td>
+</tr>
+<tr>
+<td>zhengjiatun</td>
+<td align="right">0</td>
+<td>CN</td>
+<td align="right">1541178595</td>
+<td align="right">71</td>
+<td align="right">43.51</td>
+<td align="right">123.51</td>
+<td align="right">47.17</td>
+<td align="right">15.68</td>
+</tr>
+<tr>
+<td>tarrafal</td>
+<td align="right">0</td>
+<td>CV</td>
+<td align="right">1541174400</td>
+<td align="right">62</td>
+<td align="right">15.28</td>
+<td align="right">-23.77</td>
+<td align="right">84.2</td>
+<td align="right">17.22</td>
+</tr>
+<tr>
+<td>lashio</td>
+<td align="right">0</td>
+<td>MM</td>
+<td align="right">1541178596</td>
+<td align="right">88</td>
+<td align="right">22.93</td>
+<td align="right">97.75</td>
+<td align="right">57.29</td>
+<td align="right">1.92</td>
+</tr>
+<tr>
+<td>guayaramerin</td>
+<td align="right">75</td>
+<td>BO</td>
+<td align="right">1541174400</td>
+<td align="right">55</td>
+<td align="right">-10.82</td>
+<td align="right">-65.36</td>
+<td align="right">91.4</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>harper</td>
+<td align="right">44</td>
+<td>LR</td>
+<td align="right">1541178597</td>
+<td align="right">100</td>
+<td align="right">4.38</td>
+<td align="right">-7.71</td>
+<td align="right">81.1</td>
+<td align="right">10.2</td>
+</tr>
+<tr>
+<td>aripuana</td>
+<td align="right">20</td>
+<td>BR</td>
+<td align="right">1541178597</td>
+<td align="right">70</td>
+<td align="right">-9.17</td>
+<td align="right">-60.63</td>
+<td align="right">90.1</td>
+<td align="right">1.92</td>
+</tr>
+<tr>
+<td>ambanja</td>
+<td align="right">32</td>
+<td>MG</td>
+<td align="right">1541178597</td>
+<td align="right">88</td>
+<td align="right">-13.68</td>
+<td align="right">48.45</td>
+<td align="right">72.73</td>
+<td align="right">2.37</td>
+</tr>
+<tr>
+<td>sandy bay</td>
+<td align="right">40</td>
+<td>HN</td>
+<td align="right">1541174400</td>
+<td align="right">74</td>
+<td align="right">16.33</td>
+<td align="right">-86.56</td>
+<td align="right">86.0</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>longkou</td>
+<td align="right">0</td>
+<td>CN</td>
+<td align="right">1541178598</td>
+<td align="right">100</td>
+<td align="right">37.64</td>
+<td align="right">120.47</td>
+<td align="right">50.18</td>
+<td align="right">10.98</td>
+</tr>
+<tr>
+<td>cayenne</td>
+<td align="right">36</td>
+<td>GF</td>
+<td align="right">1541176200</td>
+<td align="right">55</td>
+<td align="right">4.94</td>
+<td align="right">-52.33</td>
+<td align="right">89.6</td>
+<td align="right">16.11</td>
+</tr>
+<tr>
+<td>najran</td>
+<td align="right">0</td>
+<td>SA</td>
+<td align="right">1541174400</td>
+<td align="right">35</td>
+<td align="right">17.54</td>
+<td align="right">44.22</td>
+<td align="right">73.4</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>kameno</td>
+<td align="right">75</td>
+<td>BG</td>
+<td align="right">1541178000</td>
+<td align="right">82</td>
+<td align="right">42.57</td>
+<td align="right">27.29</td>
+<td align="right">59.0</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td>saint-augustin</td>
+<td align="right">90</td>
+<td>CA</td>
+<td align="right">1541176440</td>
+<td align="right">100</td>
+<td align="right">45.63</td>
+<td align="right">-73.98</td>
+<td align="right">39.2</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td>forbes</td>
+<td align="right">0</td>
+<td>AU</td>
+<td align="right">1541178600</td>
+<td align="right">75</td>
+<td align="right">-33.38</td>
+<td align="right">148.01</td>
+<td align="right">66.16</td>
+<td align="right">6.29</td>
+</tr>
+<tr>
+<td>saint-michel-des-saints</td>
+<td align="right">92</td>
+<td>CA</td>
+<td align="right">1541178601</td>
+<td align="right">100</td>
+<td align="right">46.68</td>
+<td align="right">-73.92</td>
+<td align="right">35.87</td>
+<td align="right">8.08</td>
+</tr>
+<tr>
+<td>poum</td>
+<td align="right">12</td>
+<td>NC</td>
+<td align="right">1541178601</td>
+<td align="right">100</td>
+<td align="right">-20.23</td>
+<td align="right">164.02</td>
+<td align="right">73.72</td>
+<td align="right">18.37</td>
+</tr>
+<tr>
+<td>chunskiy</td>
+<td align="right">8</td>
+<td>RU</td>
+<td align="right">1541178602</td>
+<td align="right">55</td>
+<td align="right">56.08</td>
+<td align="right">99.63</td>
+<td align="right">11.84</td>
+<td align="right">4.5</td>
+</tr>
+<tr>
+<td>waipawa</td>
+<td align="right">80</td>
+<td>NZ</td>
+<td align="right">1541178605</td>
+<td align="right">83</td>
+<td align="right">-39.94</td>
+<td align="right">176.59</td>
+<td align="right">48.2</td>
+<td align="right">9.31</td>
+</tr>
+<tr>
+<td>pocatello</td>
+<td align="right">40</td>
+<td>US</td>
+<td align="right">1541173980</td>
+<td align="right">54</td>
+<td align="right">42.87</td>
+<td align="right">-112.44</td>
+<td align="right">53.96</td>
+<td align="right">23.04</td>
+</tr>
+<tr>
+<td>moradabad</td>
+<td align="right">68</td>
+<td>IN</td>
+<td align="right">1541178606</td>
+<td align="right">86</td>
+<td align="right">28.83</td>
+<td align="right">78.77</td>
+<td align="right">66.7</td>
+<td align="right">2.37</td>
+</tr>
+<tr>
+<td>touros</td>
+<td align="right">0</td>
+<td>BR</td>
+<td align="right">1541178549</td>
+<td align="right">66</td>
+<td align="right">-5.2</td>
+<td align="right">-35.46</td>
+<td align="right">85.51</td>
+<td align="right">15.46</td>
+</tr>
+<tr>
+<td>sao raimundo das mangabeiras</td>
+<td align="right">8</td>
+<td>BR</td>
+<td align="right">1541178607</td>
+<td align="right">55</td>
+<td align="right">-7.02</td>
+<td align="right">-45.48</td>
+<td align="right">92.62</td>
+<td align="right">2.04</td>
+</tr>
+<tr>
+<td>vila velha</td>
+<td align="right">0</td>
+<td>BR</td>
+<td align="right">1541178000</td>
+<td align="right">62</td>
+<td align="right">-3.71</td>
+<td align="right">-38.6</td>
+<td align="right">86.0</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td>zeya</td>
+<td align="right">48</td>
+<td>RU</td>
+<td align="right">1541178668</td>
+<td align="right">55</td>
+<td align="right">53.74</td>
+<td align="right">127.27</td>
+<td align="right">21.29</td>
+<td align="right">7.85</td>
+</tr>
+<tr>
+<td>patiya</td>
+<td align="right">20</td>
+<td>BD</td>
+<td align="right">1541174400</td>
+<td align="right">83</td>
+<td align="right">22.3</td>
+<td align="right">91.98</td>
+<td align="right">78.8</td>
+<td align="right">3.71</td>
+</tr>
+<tr>
+<td>washington</td>
+<td align="right">1</td>
+<td>US</td>
+<td align="right">1541177760</td>
+<td align="right">80</td>
+<td align="right">38.9</td>
+<td align="right">-77.04</td>
+<td align="right">73.94</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>tual</td>
+<td align="right">64</td>
+<td>ID</td>
+<td align="right">1541178670</td>
+<td align="right">100</td>
+<td align="right">-5.67</td>
+<td align="right">132.75</td>
+<td align="right">84.16</td>
+<td align="right">8.41</td>
+</tr>
+<tr>
+<td>zhob</td>
+<td align="right">0</td>
+<td>PK</td>
+<td align="right">1541178671</td>
+<td align="right">38</td>
+<td align="right">31.34</td>
+<td align="right">69.45</td>
+<td align="right">42.35</td>
+<td align="right">6.17</td>
+</tr>
+<tr>
+<td>puerto ayora</td>
+<td align="right">75</td>
+<td>EC</td>
+<td align="right">1541174400</td>
+<td align="right">65</td>
+<td align="right">-0.74</td>
+<td align="right">-90.35</td>
+<td align="right">77.0</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>kawalu</td>
+<td align="right">76</td>
+<td>ID</td>
+<td align="right">1541178672</td>
+<td align="right">98</td>
+<td align="right">-7.38</td>
+<td align="right">108.21</td>
+<td align="right">66.65</td>
+<td align="right">1.59</td>
+</tr>
+<tr>
+<td>toora-khem</td>
+<td align="right">0</td>
+<td>RU</td>
+<td align="right">1541178672</td>
+<td align="right">64</td>
+<td align="right">52.47</td>
+<td align="right">96.11</td>
+<td align="right">-2.65</td>
+<td align="right">4.05</td>
+</tr>
+<tr>
+<td>gobabis</td>
+<td align="right">0</td>
+<td>NA</td>
+<td align="right">1541174400</td>
+<td align="right">8</td>
+<td align="right">-22.45</td>
+<td align="right">18.97</td>
+<td align="right">95.0</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>bandarbeyla</td>
+<td align="right">0</td>
+<td>SO</td>
+<td align="right">1541178673</td>
+<td align="right">100</td>
+<td align="right">9.49</td>
+<td align="right">50.81</td>
+<td align="right">79.03</td>
+<td align="right">11.43</td>
+</tr>
+<tr>
+<td>puerto madryn</td>
+<td align="right">92</td>
+<td>AR</td>
+<td align="right">1541178673</td>
+<td align="right">89</td>
+<td align="right">-42.77</td>
+<td align="right">-65.04</td>
+<td align="right">54.23</td>
+<td align="right">13.67</td>
+</tr>
+<tr>
+<td>tooele</td>
+<td align="right">1</td>
+<td>US</td>
+<td align="right">1541177700</td>
+<td align="right">68</td>
+<td align="right">40.53</td>
+<td align="right">-112.3</td>
+<td align="right">51.98</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td>lagoa</td>
+<td align="right">75</td>
+<td>PT</td>
+<td align="right">1541176200</td>
+<td align="right">64</td>
+<td align="right">37.14</td>
+<td align="right">-8.45</td>
+<td align="right">69.8</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>mago</td>
+<td align="right">56</td>
+<td>RU</td>
+<td align="right">1541178674</td>
+<td align="right">75</td>
+<td align="right">53.27</td>
+<td align="right">140.15</td>
+<td align="right">35.65</td>
+<td align="right">5.39</td>
+</tr>
+<tr>
+<td>aqtobe</td>
+<td align="right">0</td>
+<td>KZ</td>
+<td align="right">1541176200</td>
+<td align="right">59</td>
+<td align="right">50.28</td>
+<td align="right">57.21</td>
+<td align="right">35.6</td>
+<td align="right">6.71</td>
+</tr>
+<tr>
+<td>sao jose da coroa grande</td>
+<td align="right">0</td>
+<td>BR</td>
+<td align="right">1541178675</td>
+<td align="right">70</td>
+<td align="right">-8.9</td>
+<td align="right">-35.15</td>
+<td align="right">83.84</td>
+<td align="right">12.21</td>
+</tr>
+<tr>
+<td>isla vista</td>
+<td align="right">1</td>
+<td>US</td>
+<td align="right">1541174160</td>
+<td align="right">36</td>
+<td align="right">34.41</td>
+<td align="right">-119.86</td>
+<td align="right">71.06</td>
+<td align="right">5.5</td>
+</tr>
+<tr>
+<td>kavaratti</td>
+<td align="right">20</td>
+<td>IN</td>
+<td align="right">1541178676</td>
+<td align="right">96</td>
+<td align="right">10.57</td>
+<td align="right">72.64</td>
+<td align="right">86.27</td>
+<td align="right">4.27</td>
+</tr>
+<tr>
+<td>urengoy</td>
+<td align="right">64</td>
+<td>RU</td>
+<td align="right">1541178676</td>
+<td align="right">88</td>
+<td align="right">65.96</td>
+<td align="right">78.37</td>
+<td align="right">13.28</td>
+<td align="right">24.85</td>
+</tr>
+<tr>
+<td>antofagasta</td>
+<td align="right">40</td>
+<td>CL</td>
+<td align="right">1541174400</td>
+<td align="right">63</td>
+<td align="right">-23.65</td>
+<td align="right">-70.4</td>
+<td align="right">64.4</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>isangel</td>
+<td align="right">64</td>
+<td>VU</td>
+<td align="right">1541178677</td>
+<td align="right">100</td>
+<td align="right">-19.55</td>
+<td align="right">169.27</td>
+<td align="right">74.12</td>
+<td align="right">25.52</td>
+</tr>
+<tr>
+<td>ishigaki</td>
+<td align="right">92</td>
+<td>JP</td>
+<td align="right">1541178678</td>
+<td align="right">100</td>
+<td align="right">24.34</td>
+<td align="right">124.16</td>
+<td align="right">75.29</td>
+<td align="right">24.74</td>
+</tr>
+<tr>
+<td>takaka</td>
+<td align="right">92</td>
+<td>NZ</td>
+<td align="right">1541178678</td>
+<td align="right">100</td>
+<td align="right">-40.86</td>
+<td align="right">172.81</td>
+<td align="right">51.13</td>
+<td align="right">9.42</td>
+</tr>
+<tr>
+<td>pitimbu</td>
+<td align="right">75</td>
+<td>BR</td>
+<td align="right">1541174400</td>
+<td align="right">58</td>
+<td align="right">-7.47</td>
+<td align="right">-34.81</td>
+<td align="right">86.0</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>pundaguitan</td>
+<td align="right">76</td>
+<td>PH</td>
+<td align="right">1541178679</td>
+<td align="right">100</td>
+<td align="right">6.37</td>
+<td align="right">126.17</td>
+<td align="right">81.46</td>
+<td align="right">2.71</td>
+</tr>
+<tr>
+<td>lisakovsk</td>
+<td align="right">36</td>
+<td>KZ</td>
+<td align="right">1541178749</td>
+<td align="right">83</td>
+<td align="right">52.55</td>
+<td align="right">62.49</td>
+<td align="right">35.56</td>
+<td align="right">12.77</td>
+</tr>
+<tr>
+<td>trincomalee</td>
+<td align="right">32</td>
+<td>LK</td>
+<td align="right">1541178680</td>
+<td align="right">94</td>
+<td align="right">8.58</td>
+<td align="right">81.23</td>
+<td align="right">75.02</td>
+<td align="right">3.49</td>
+</tr>
+<tr>
+<td>storforshei</td>
+<td align="right">75</td>
+<td>NO</td>
+<td align="right">1541177400</td>
+<td align="right">65</td>
+<td align="right">66.4</td>
+<td align="right">14.52</td>
+<td align="right">44.6</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>usinsk</td>
+<td align="right">80</td>
+<td>RU</td>
+<td align="right">1541178681</td>
+<td align="right">91</td>
+<td align="right">66</td>
+<td align="right">57.56</td>
+<td align="right">27.37</td>
+<td align="right">5.61</td>
+</tr>
+<tr>
+<td>trat</td>
+<td align="right">0</td>
+<td>TH</td>
+<td align="right">1541178681</td>
+<td align="right">100</td>
+<td align="right">12.25</td>
+<td align="right">102.51</td>
+<td align="right">80.6</td>
+<td align="right">4.38</td>
+</tr>
+<tr>
+<td>nemuro</td>
+<td align="right">0</td>
+<td>JP</td>
+<td align="right">1541178682</td>
+<td align="right">100</td>
+<td align="right">43.32</td>
+<td align="right">145.57</td>
+<td align="right">50.32</td>
+<td align="right">9.42</td>
+</tr>
+<tr>
+<td>muroto</td>
+<td align="right">0</td>
+<td>JP</td>
+<td align="right">1541178682</td>
+<td align="right">100</td>
+<td align="right">33.37</td>
+<td align="right">134.14</td>
+<td align="right">52.25</td>
+<td align="right">8.97</td>
+</tr>
+<tr>
+<td>grand baie</td>
+<td align="right">20</td>
+<td>MU</td>
+<td align="right">1541174400</td>
+<td align="right">73</td>
+<td align="right">-20.02</td>
+<td align="right">57.58</td>
+<td align="right">77.0</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>inongo</td>
+<td align="right">76</td>
+<td>CD</td>
+<td align="right">1541178683</td>
+<td align="right">96</td>
+<td align="right">-1.93</td>
+<td align="right">18.29</td>
+<td align="right">74.17</td>
+<td align="right">3.38</td>
+</tr>
+<tr>
+<td>olenino</td>
+<td align="right">92</td>
+<td>RU</td>
+<td align="right">1541178683</td>
+<td align="right">96</td>
+<td align="right">56.21</td>
+<td align="right">33.48</td>
+<td align="right">42.98</td>
+<td align="right">11.77</td>
+</tr>
+<tr>
+<td>pevek</td>
+<td align="right">76</td>
+<td>RU</td>
+<td align="right">1541178683</td>
+<td align="right">100</td>
+<td align="right">69.7</td>
+<td align="right">170.27</td>
+<td align="right">8.65</td>
+<td align="right">4.61</td>
+</tr>
+<tr>
+<td>puerto baquerizo moreno</td>
+<td align="right">75</td>
+<td>EC</td>
+<td align="right">1541174400</td>
+<td align="right">73</td>
+<td align="right">-0.9</td>
+<td align="right">-89.6</td>
+<td align="right">75.2</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td>buchanan</td>
+<td align="right">75</td>
+<td>LR</td>
+<td align="right">1541176200</td>
+<td align="right">70</td>
+<td align="right">5.88</td>
+<td align="right">-10.05</td>
+<td align="right">86.0</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>twin falls</td>
+<td align="right">1</td>
+<td>US</td>
+<td align="right">1541173980</td>
+<td align="right">54</td>
+<td align="right">42.57</td>
+<td align="right">-114.46</td>
+<td align="right">55.04</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>dungarpur</td>
+<td align="right">0</td>
+<td>IN</td>
+<td align="right">1541178685</td>
+<td align="right">57</td>
+<td align="right">23.85</td>
+<td align="right">73.71</td>
+<td align="right">71.83</td>
+<td align="right">2.26</td>
+</tr>
+<tr>
+<td>severomuysk</td>
+<td align="right">44</td>
+<td>RU</td>
+<td align="right">1541178685</td>
+<td align="right">57</td>
+<td align="right">56.17</td>
+<td align="right">113.57</td>
+<td align="right">-0.63</td>
+<td align="right">3.94</td>
+</tr>
+<tr>
+<td>geraldton</td>
+<td align="right">40</td>
+<td>AU</td>
+<td align="right">1541176200</td>
+<td align="right">82</td>
+<td align="right">-28.77</td>
+<td align="right">114.6</td>
+<td align="right">62.6</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td>saint-joseph</td>
+<td align="right">75</td>
+<td>RE</td>
+<td align="right">1541176200</td>
+<td align="right">78</td>
+<td align="right">-21.37</td>
+<td align="right">55.62</td>
+<td align="right">75.2</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>hay river</td>
+<td align="right">90</td>
+<td>CA</td>
+<td align="right">1541174400</td>
+<td align="right">85</td>
+<td align="right">60.82</td>
+<td align="right">-115.79</td>
+<td align="right">24.8</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>upernavik</td>
+<td align="right">24</td>
+<td>GL</td>
+<td align="right">1541178686</td>
+<td align="right">100</td>
+<td align="right">72.79</td>
+<td align="right">-56.15</td>
+<td align="right">19.63</td>
+<td align="right">2.37</td>
+</tr>
+<tr>
+<td>ballina</td>
+<td align="right">0</td>
+<td>AU</td>
+<td align="right">1541178687</td>
+<td align="right">100</td>
+<td align="right">-28.87</td>
+<td align="right">153.57</td>
+<td align="right">70.93</td>
+<td align="right">16.35</td>
+</tr>
+<tr>
+<td>orcopampa</td>
+<td align="right">80</td>
+<td>PE</td>
+<td align="right">1541178687</td>
+<td align="right">83</td>
+<td align="right">-15.27</td>
+<td align="right">-72.34</td>
+<td align="right">41.09</td>
+<td align="right">1.59</td>
+</tr>
+<tr>
+<td>longido</td>
+<td align="right">76</td>
+<td>TZ</td>
+<td align="right">1541178688</td>
+<td align="right">87</td>
+<td align="right">-2.73</td>
+<td align="right">36.7</td>
+<td align="right">65.71</td>
+<td align="right">4.16</td>
+</tr>
+<tr>
+<td>hobyo</td>
+<td align="right">0</td>
+<td>SO</td>
+<td align="right">1541178688</td>
+<td align="right">87</td>
+<td align="right">5.35</td>
+<td align="right">48.53</td>
+<td align="right">77.68</td>
+<td align="right">9.75</td>
+</tr>
+<tr>
+<td>troy</td>
+<td align="right">90</td>
+<td>US</td>
+<td align="right">1541177580</td>
+<td align="right">83</td>
+<td align="right">42.73</td>
+<td align="right">-73.69</td>
+<td align="right">60.98</td>
+<td align="right">4.38</td>
+</tr>
+<tr>
+<td>kenitra</td>
+<td align="right">40</td>
+<td>MA</td>
+<td align="right">1541176200</td>
+<td align="right">63</td>
+<td align="right">34.26</td>
+<td align="right">-6.57</td>
+<td align="right">66.2</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td>kudymkar</td>
+<td align="right">76</td>
+<td>RU</td>
+<td align="right">1541178749</td>
+<td align="right">91</td>
+<td align="right">59.01</td>
+<td align="right">54.66</td>
+<td align="right">34.7</td>
+<td align="right">8.86</td>
+</tr>
+<tr>
+<td>punakha</td>
+<td align="right">100</td>
+<td>BT</td>
+<td align="right">1541178750</td>
+<td align="right">93</td>
+<td align="right">27.58</td>
+<td align="right">89.86</td>
+<td align="right">40.96</td>
+<td align="right">0.69</td>
+</tr>
+<tr>
+<td>vardo</td>
+<td align="right">75</td>
+<td>NO</td>
+<td align="right">1541177400</td>
+<td align="right">100</td>
+<td align="right">70.37</td>
+<td align="right">31.11</td>
+<td align="right">37.4</td>
+<td align="right">33.33</td>
+</tr>
+<tr>
+<td>basoko</td>
+<td align="right">80</td>
+<td>CD</td>
+<td align="right">1541178751</td>
+<td align="right">100</td>
+<td align="right">1.23</td>
+<td align="right">23.61</td>
+<td align="right">70.7</td>
+<td align="right">2.71</td>
+</tr>
+<tr>
+<td>sibu</td>
+<td align="right">75</td>
+<td>MY</td>
+<td align="right">1541174400</td>
+<td align="right">94</td>
+<td align="right">2.29</td>
+<td align="right">111.83</td>
+<td align="right">80.6</td>
+<td align="right">2.15</td>
+</tr>
+<tr>
+<td>ouidah</td>
+<td align="right">40</td>
+<td>BJ</td>
+<td align="right">1541174400</td>
+<td align="right">79</td>
+<td align="right">6.37</td>
+<td align="right">2.09</td>
+<td align="right">86.0</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>platteville</td>
+<td align="right">90</td>
+<td>US</td>
+<td align="right">1541177580</td>
+<td align="right">80</td>
+<td align="right">42.73</td>
+<td align="right">-90.48</td>
+<td align="right">45.32</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>bucerias</td>
+<td align="right">90</td>
+<td>MX</td>
+<td align="right">1541173500</td>
+<td align="right">100</td>
+<td align="right">20.76</td>
+<td align="right">-105.33</td>
+<td align="right">77.0</td>
+<td align="right">7.85</td>
+</tr>
+<tr>
+<td>kontagora</td>
+<td align="right">0</td>
+<td>NG</td>
+<td align="right">1541178752</td>
+<td align="right">73</td>
+<td align="right">10.4</td>
+<td align="right">5.47</td>
+<td align="right">81.28</td>
+<td align="right">2.93</td>
+</tr>
+<tr>
+<td>marsh harbour</td>
+<td align="right">24</td>
+<td>BS</td>
+<td align="right">1541178753</td>
+<td align="right">96</td>
+<td align="right">26.54</td>
+<td align="right">-77.06</td>
+<td align="right">82.22</td>
+<td align="right">16.02</td>
+</tr>
+<tr>
+<td>ongandjera</td>
+<td align="right">0</td>
+<td>NA</td>
+<td align="right">1541178753</td>
+<td align="right">32</td>
+<td align="right">-17.88</td>
+<td align="right">15.07</td>
+<td align="right">82.36</td>
+<td align="right">3.49</td>
+</tr>
+<tr>
+<td>wellington</td>
+<td align="right">90</td>
+<td>CA</td>
+<td align="right">1541175180</td>
+<td align="right">100</td>
+<td align="right">44.87</td>
+<td align="right">-63.61</td>
+<td align="right">55.4</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>lincoln</td>
+<td align="right">24</td>
+<td>AR</td>
+<td align="right">1541178754</td>
+<td align="right">72</td>
+<td align="right">-34.87</td>
+<td align="right">-61.53</td>
+<td align="right">73.13</td>
+<td align="right">14</td>
+</tr>
+<tr>
+<td>vostok</td>
+<td align="right">0</td>
+<td>RU</td>
+<td align="right">1541178755</td>
+<td align="right">67</td>
+<td align="right">46.45</td>
+<td align="right">135.83</td>
+<td align="right">17.02</td>
+<td align="right">3.15</td>
+</tr>
+<tr>
+<td>hisar</td>
+<td align="right">56</td>
+<td>IN</td>
+<td align="right">1541178755</td>
+<td align="right">61</td>
+<td align="right">29.16</td>
+<td align="right">75.73</td>
+<td align="right">73.49</td>
+<td align="right">8.08</td>
+</tr>
+<tr>
+<td>biu</td>
+<td align="right">8</td>
+<td>NG</td>
+<td align="right">1541178756</td>
+<td align="right">43</td>
+<td align="right">10.61</td>
+<td align="right">12.19</td>
+<td align="right">78.35</td>
+<td align="right">2.04</td>
+</tr>
+<tr>
+<td>coquimbo</td>
+<td align="right">0</td>
+<td>CL</td>
+<td align="right">1541174400</td>
+<td align="right">67</td>
+<td align="right">-29.95</td>
+<td align="right">-71.34</td>
+<td align="right">62.6</td>
+<td align="right">17.22</td>
+</tr>
+<tr>
+<td>kamina</td>
+<td align="right">44</td>
+<td>CD</td>
+<td align="right">1541178757</td>
+<td align="right">88</td>
+<td align="right">-8.74</td>
+<td align="right">25</td>
+<td align="right">72.37</td>
+<td align="right">6.51</td>
+</tr>
+<tr>
+<td>okha</td>
+<td align="right">20</td>
+<td>RU</td>
+<td align="right">1541178757</td>
+<td align="right">86</td>
+<td align="right">53.59</td>
+<td align="right">142.95</td>
+<td align="right">36.59</td>
+<td align="right">11.21</td>
+</tr>
+<tr>
+<td>sampit</td>
+<td align="right">88</td>
+<td>ID</td>
+<td align="right">1541178702</td>
+<td align="right">97</td>
+<td align="right">-2.54</td>
+<td align="right">112.95</td>
+<td align="right">76.6</td>
+<td align="right">3.04</td>
+</tr>
+<tr>
+<td>northam</td>
+<td align="right">40</td>
+<td>AU</td>
+<td align="right">1541176200</td>
+<td align="right">82</td>
+<td align="right">-31.65</td>
+<td align="right">116.67</td>
+<td align="right">59.0</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>mandalgovi</td>
+<td align="right">92</td>
+<td>MN</td>
+<td align="right">1541178758</td>
+<td align="right">61</td>
+<td align="right">45.76</td>
+<td align="right">106.27</td>
+<td align="right">22.6</td>
+<td align="right">18.7</td>
+</tr>
+<tr>
+<td>trairi</td>
+<td align="right">0</td>
+<td>BR</td>
+<td align="right">1541178758</td>
+<td align="right">100</td>
+<td align="right">-3.28</td>
+<td align="right">-39.27</td>
+<td align="right">80.65</td>
+<td align="right">19.26</td>
+</tr>
+<tr>
+<td>mahajanga</td>
+<td align="right">40</td>
+<td>MG</td>
+<td align="right">1541174400</td>
+<td align="right">78</td>
+<td align="right">-15.72</td>
+<td align="right">46.32</td>
+<td align="right">82.4</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>lusambo</td>
+<td align="right">80</td>
+<td>CD</td>
+<td align="right">1541178759</td>
+<td align="right">94</td>
+<td align="right">-4.97</td>
+<td align="right">23.44</td>
+<td align="right">74.39</td>
+<td align="right">2.15</td>
+</tr>
+<tr>
+<td>upata</td>
+<td align="right">100</td>
+<td>VE</td>
+<td align="right">1541178760</td>
+<td align="right">83</td>
+<td align="right">8.02</td>
+<td align="right">-62.41</td>
+<td align="right">78.62</td>
+<td align="right">10.42</td>
+</tr>
+<tr>
+<td>port-gentil</td>
+<td align="right">75</td>
+<td>GA</td>
+<td align="right">1541174400</td>
+<td align="right">78</td>
+<td align="right">-0.72</td>
+<td align="right">8.78</td>
+<td align="right">82.4</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>bagdarin</td>
+<td align="right">0</td>
+<td>RU</td>
+<td align="right">1541178761</td>
+<td align="right">38</td>
+<td align="right">54.44</td>
+<td align="right">113.59</td>
+<td align="right">4.55</td>
+<td align="right">8.86</td>
+</tr>
+<tr>
+<td>berbera</td>
+<td align="right">0</td>
+<td>SO</td>
+<td align="right">1541178761</td>
+<td align="right">56</td>
+<td align="right">10.44</td>
+<td align="right">45.01</td>
+<td align="right">68.77</td>
+<td align="right">4.94</td>
+</tr>
+<tr>
+<td>hit</td>
+<td align="right">44</td>
+<td>IQ</td>
+<td align="right">1541178761</td>
+<td align="right">55</td>
+<td align="right">33.64</td>
+<td align="right">42.83</td>
+<td align="right">59.32</td>
+<td align="right">2.59</td>
+</tr>
+<tr>
+<td>zhucheng</td>
+<td align="right">0</td>
+<td>CN</td>
+<td align="right">1541174400</td>
+<td align="right">42</td>
+<td align="right">30.85</td>
+<td align="right">114.8</td>
+<td align="right">66.2</td>
+<td align="right">4.47</td>
+</tr>
+<tr>
+<td>liverpool</td>
+<td align="right">92</td>
+<td>CA</td>
+<td align="right">1541178762</td>
+<td align="right">91</td>
+<td align="right">44.04</td>
+<td align="right">-64.71</td>
+<td align="right">57.16</td>
+<td align="right">18.81</td>
+</tr>
+<tr>
+<td>havoysund</td>
+<td align="right">0</td>
+<td>NO</td>
+<td align="right">1541177400</td>
+<td align="right">87</td>
+<td align="right">71</td>
+<td align="right">24.66</td>
+<td align="right">42.8</td>
+<td align="right">21.92</td>
+</tr>
+<tr>
+<td>mansa</td>
+<td align="right">0</td>
+<td>IN</td>
+<td align="right">1541178000</td>
+<td align="right">45</td>
+<td align="right">23.43</td>
+<td align="right">72.66</td>
+<td align="right">84.2</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>broome</td>
+<td align="right">8</td>
+<td>AU</td>
+<td align="right">1541176200</td>
+<td align="right">78</td>
+<td align="right">-17.97</td>
+<td align="right">122.23</td>
+<td align="right">80.6</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>meulaboh</td>
+<td align="right">100</td>
+<td>ID</td>
+<td align="right">1541178764</td>
+<td align="right">100</td>
+<td align="right">4.14</td>
+<td align="right">96.13</td>
+<td align="right">79.21</td>
+<td align="right">9.86</td>
+</tr>
+<tr>
+<td>sechura</td>
+<td align="right">56</td>
+<td>PE</td>
+<td align="right">1541178764</td>
+<td align="right">76</td>
+<td align="right">-5.56</td>
+<td align="right">-80.82</td>
+<td align="right">74.98</td>
+<td align="right">7.52</td>
+</tr>
+<tr>
+<td>stawell</td>
+<td align="right">0</td>
+<td>AU</td>
+<td align="right">1541178764</td>
+<td align="right">65</td>
+<td align="right">-37.06</td>
+<td align="right">142.77</td>
+<td align="right">51.31</td>
+<td align="right">11.43</td>
+</tr>
+<tr>
+<td>tadine</td>
+<td align="right">20</td>
+<td>NC</td>
+<td align="right">1541178765</td>
+<td align="right">100</td>
+<td align="right">-21.55</td>
+<td align="right">167.88</td>
+<td align="right">71.83</td>
+<td align="right">22.06</td>
+</tr>
+<tr>
+<td>maniitsoq</td>
+<td align="right">0</td>
+<td>GL</td>
+<td align="right">1541178765</td>
+<td align="right">100</td>
+<td align="right">65.42</td>
+<td align="right">-52.9</td>
+<td align="right">14.95</td>
+<td align="right">7.52</td>
+</tr>
+<tr>
+<td>inverell</td>
+<td align="right">64</td>
+<td>AU</td>
+<td align="right">1541178765</td>
+<td align="right">61</td>
+<td align="right">-29.78</td>
+<td align="right">151.11</td>
+<td align="right">63.37</td>
+<td align="right">8.86</td>
+</tr>
+<tr>
+<td>santa ana</td>
+<td align="right">92</td>
+<td>PE</td>
+<td align="right">1541178766</td>
+<td align="right">100</td>
+<td align="right">-13.07</td>
+<td align="right">-75.14</td>
+<td align="right">40.96</td>
+<td align="right">0.13</td>
+</tr>
+<tr>
+<td>uaua</td>
+<td align="right">0</td>
+<td>BR</td>
+<td align="right">1541178766</td>
+<td align="right">30</td>
+<td align="right">-9.84</td>
+<td align="right">-39.48</td>
+<td align="right">94.82</td>
+<td align="right">7.4</td>
+</tr>
+<tr>
+<td>bacolod</td>
+<td align="right">56</td>
+<td>PH</td>
+<td align="right">1541178767</td>
+<td align="right">91</td>
+<td align="right">10.68</td>
+<td align="right">122.95</td>
+<td align="right">77.45</td>
+<td align="right">4.72</td>
+</tr>
+<tr>
+<td>ukiah</td>
+<td align="right">1</td>
+<td>US</td>
+<td align="right">1541174160</td>
+<td align="right">79</td>
+<td align="right">39.15</td>
+<td align="right">-123.21</td>
+<td align="right">51.08</td>
+<td align="right">2.37</td>
+</tr>
+<tr>
+<td>jackson</td>
+<td align="right">75</td>
+<td>US</td>
+<td align="right">1541178000</td>
+<td align="right">68</td>
+<td align="right">35.61</td>
+<td align="right">-88.82</td>
+<td align="right">55.4</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>sistranda</td>
+<td align="right">75</td>
+<td>NO</td>
+<td align="right">1541177400</td>
+<td align="right">87</td>
+<td align="right">63.73</td>
+<td align="right">8.83</td>
+<td align="right">44.6</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td>bandar-e lengeh</td>
+<td align="right">32</td>
+<td>IR</td>
+<td align="right">1541174400</td>
+<td align="right">42</td>
+<td align="right">26.56</td>
+<td align="right">54.88</td>
+<td align="right">82.4</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>sobolevo</td>
+<td align="right">92</td>
+<td>RU</td>
+<td align="right">1541178769</td>
+<td align="right">95</td>
+<td align="right">54.43</td>
+<td align="right">31.9</td>
+<td align="right">46.0</td>
+<td align="right">13</td>
+</tr>
+<tr>
+<td>yar-sale</td>
+<td align="right">36</td>
+<td>RU</td>
+<td align="right">1541178829</td>
+<td align="right">100</td>
+<td align="right">66.83</td>
+<td align="right">70.83</td>
+<td align="right">10.72</td>
+<td align="right">17.92</td>
+</tr>
+<tr>
+<td>maragogi</td>
+<td align="right">0</td>
+<td>BR</td>
+<td align="right">1541178830</td>
+<td align="right">70</td>
+<td align="right">-9.01</td>
+<td align="right">-35.22</td>
+<td align="right">83.84</td>
+<td align="right">12.21</td>
+</tr>
+<tr>
+<td>bocana de paiwas</td>
+<td align="right">20</td>
+<td>NI</td>
+<td align="right">1541178830</td>
+<td align="right">80</td>
+<td align="right">12.79</td>
+<td align="right">-85.12</td>
+<td align="right">82.67</td>
+<td align="right">6.17</td>
+</tr>
+<tr>
+<td>santa isabel do rio negro</td>
+<td align="right">88</td>
+<td>BR</td>
+<td align="right">1541178830</td>
+<td align="right">100</td>
+<td align="right">-0.41</td>
+<td align="right">-65.02</td>
+<td align="right">76.15</td>
+<td align="right">6.73</td>
+</tr>
+<tr>
+<td>hirara</td>
+<td align="right">92</td>
+<td>JP</td>
+<td align="right">1541178831</td>
+<td align="right">100</td>
+<td align="right">24.8</td>
+<td align="right">125.28</td>
+<td align="right">76.37</td>
+<td align="right">27.98</td>
+</tr>
+<tr>
+<td>basco</td>
+<td align="right">92</td>
+<td>PH</td>
+<td align="right">1541178831</td>
+<td align="right">100</td>
+<td align="right">20.45</td>
+<td align="right">121.97</td>
+<td align="right">77.77</td>
+<td align="right">6.73</td>
+</tr>
+<tr>
+<td>mungaoli</td>
+<td align="right">0</td>
+<td>IN</td>
+<td align="right">1541178831</td>
+<td align="right">63</td>
+<td align="right">24.41</td>
+<td align="right">78.09</td>
+<td align="right">67.51</td>
+<td align="right">4.05</td>
+</tr>
+<tr>
+<td>svetlogorsk</td>
+<td align="right">75</td>
+<td>RU</td>
+<td align="right">1541176200</td>
+<td align="right">74</td>
+<td align="right">53.14</td>
+<td align="right">59.15</td>
+<td align="right">35.6</td>
+<td align="right">4.47</td>
+</tr>
+<tr>
+<td>ovsyanka</td>
+<td align="right">76</td>
+<td>RU</td>
+<td align="right">1541178833</td>
+<td align="right">48</td>
+<td align="right">53.58</td>
+<td align="right">126.91</td>
+<td align="right">28.58</td>
+<td align="right">8.41</td>
+</tr>
+<tr>
+<td>chabahar</td>
+<td align="right">12</td>
+<td>IR</td>
+<td align="right">1541178833</td>
+<td align="right">92</td>
+<td align="right">25.29</td>
+<td align="right">60.65</td>
+<td align="right">81.37</td>
+<td align="right">3.6</td>
+</tr>
+<tr>
+<td>badarwas</td>
+<td align="right">56</td>
+<td>IN</td>
+<td align="right">1541178834</td>
+<td align="right">52</td>
+<td align="right">24.97</td>
+<td align="right">77.57</td>
+<td align="right">69.62</td>
+<td align="right">4.94</td>
+</tr>
+<tr>
+<td>aksay</td>
+<td align="right">8</td>
+<td>KZ</td>
+<td align="right">1541178834</td>
+<td align="right">79</td>
+<td align="right">51.17</td>
+<td align="right">53.01</td>
+<td align="right">28.36</td>
+<td align="right">10.87</td>
+</tr>
+<tr>
+<td>guarapari</td>
+<td align="right">0</td>
+<td>BR</td>
+<td align="right">1541174400</td>
+<td align="right">74</td>
+<td align="right">-20.67</td>
+<td align="right">-40.5</td>
+<td align="right">80.6</td>
+<td align="right">16.11</td>
+</tr>
+<tr>
+<td>bathurst</td>
+<td align="right">90</td>
+<td>CA</td>
+<td align="right">1541176380</td>
+<td align="right">93</td>
+<td align="right">47.63</td>
+<td align="right">-65.65</td>
+<td align="right">37.4</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>bilma</td>
+<td align="right">0</td>
+<td>NE</td>
+<td align="right">1541178773</td>
+<td align="right">17</td>
+<td align="right">18.69</td>
+<td align="right">12.92</td>
+<td align="right">74.71</td>
+<td align="right">4.38</td>
+</tr>
+<tr>
+<td>kuito</td>
+<td align="right">20</td>
+<td>AO</td>
+<td align="right">1541178836</td>
+<td align="right">45</td>
+<td align="right">-12.38</td>
+<td align="right">16.94</td>
+<td align="right">70.97</td>
+<td align="right">3.15</td>
+</tr>
+<tr>
+<td>college</td>
+<td align="right">1</td>
+<td>US</td>
+<td align="right">1541177880</td>
+<td align="right">85</td>
+<td align="right">64.86</td>
+<td align="right">-147.8</td>
+<td align="right">3.92</td>
+<td align="right">7.07</td>
+</tr>
+<tr>
+<td>harrisonburg</td>
+<td align="right">40</td>
+<td>US</td>
+<td align="right">1541177700</td>
+<td align="right">71</td>
+<td align="right">38.45</td>
+<td align="right">-78.87</td>
+<td align="right">71.06</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>hami</td>
+<td align="right">80</td>
+<td>CN</td>
+<td align="right">1541178747</td>
+<td align="right">77</td>
+<td align="right">42.84</td>
+<td align="right">93.51</td>
+<td align="right">32.27</td>
+<td align="right">3.04</td>
+</tr>
+<tr>
+<td>pachino</td>
+<td align="right">40</td>
+<td>IT</td>
+<td align="right">1541177400</td>
+<td align="right">77</td>
+<td align="right">36.72</td>
+<td align="right">15.09</td>
+<td align="right">64.4</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>gombe</td>
+<td align="right">0</td>
+<td>NG</td>
+<td align="right">1541178838</td>
+<td align="right">43</td>
+<td align="right">10.28</td>
+<td align="right">11.16</td>
+<td align="right">80.15</td>
+<td align="right">0.92</td>
+</tr>
+<tr>
+<td>newnan</td>
+<td align="right">90</td>
+<td>US</td>
+<td align="right">1541176500</td>
+<td align="right">71</td>
+<td align="right">33.38</td>
+<td align="right">-84.8</td>
+<td align="right">62.6</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td>sambek</td>
+<td align="right">0</td>
+<td>RU</td>
+<td align="right">1541178838</td>
+<td align="right">53</td>
+<td align="right">47.34</td>
+<td align="right">39.02</td>
+<td align="right">49.28</td>
+<td align="right">16.02</td>
+</tr>
+<tr>
+<td>coihaique</td>
+<td align="right">75</td>
+<td>CL</td>
+<td align="right">1541174400</td>
+<td align="right">41</td>
+<td align="right">-45.58</td>
+<td align="right">-72.07</td>
+<td align="right">57.2</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>burnie</td>
+<td align="right">24</td>
+<td>AU</td>
+<td align="right">1541178839</td>
+<td align="right">100</td>
+<td align="right">-41.05</td>
+<td align="right">145.91</td>
+<td align="right">53.47</td>
+<td align="right">33.35</td>
+</tr>
+<tr>
+<td>filadelfia</td>
+<td align="right">0</td>
+<td>PY</td>
+<td align="right">1541178839</td>
+<td align="right">65</td>
+<td align="right">-22.35</td>
+<td align="right">-60.04</td>
+<td align="right">90.59</td>
+<td align="right">15.68</td>
+</tr>
+<tr>
+<td>praia da vitoria</td>
+<td align="right">20</td>
+<td>PT</td>
+<td align="right">1541174400</td>
+<td align="right">83</td>
+<td align="right">38.73</td>
+<td align="right">-27.07</td>
+<td align="right">73.4</td>
+<td align="right">24.18</td>
+</tr>
+<tr>
+<td>prince rupert</td>
+<td align="right">90</td>
+<td>CA</td>
+<td align="right">1541178720</td>
+<td align="right">93</td>
+<td align="right">54.32</td>
+<td align="right">-130.32</td>
+<td align="right">50.0</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>mezen</td>
+<td align="right">80</td>
+<td>RU</td>
+<td align="right">1541178840</td>
+<td align="right">93</td>
+<td align="right">65.85</td>
+<td align="right">44.24</td>
+<td align="right">31.78</td>
+<td align="right">2.71</td>
+</tr>
+<tr>
+<td>tutoia</td>
+<td align="right">20</td>
+<td>BR</td>
+<td align="right">1541174400</td>
+<td align="right">46</td>
+<td align="right">-2.76</td>
+<td align="right">-42.27</td>
+<td align="right">89.6</td>
+<td align="right">20.8</td>
+</tr>
+<tr>
+<td>bubaque</td>
+<td align="right">20</td>
+<td>GW</td>
+<td align="right">1541174400</td>
+<td align="right">52</td>
+<td align="right">11.28</td>
+<td align="right">-15.83</td>
+<td align="right">91.4</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>planadas</td>
+<td align="right">75</td>
+<td>CO</td>
+<td align="right">1541174400</td>
+<td align="right">54</td>
+<td align="right">3.2</td>
+<td align="right">-75.65</td>
+<td align="right">84.2</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>ordzhonikidze</td>
+<td align="right">0</td>
+<td>UA</td>
+<td align="right">1541178842</td>
+<td align="right">97</td>
+<td align="right">44.96</td>
+<td align="right">35.36</td>
+<td align="right">55.85</td>
+<td align="right">9.86</td>
+</tr>
+<tr>
+<td>pochutla</td>
+<td align="right">75</td>
+<td>MX</td>
+<td align="right">1541173620</td>
+<td align="right">70</td>
+<td align="right">15.74</td>
+<td align="right">-96.47</td>
+<td align="right">86.0</td>
+<td align="right">6.85</td>
+</tr>
+<tr>
+<td>mayumba</td>
+<td align="right">0</td>
+<td>GA</td>
+<td align="right">1541178843</td>
+<td align="right">94</td>
+<td align="right">-3.44</td>
+<td align="right">10.65</td>
+<td align="right">77.9</td>
+<td align="right">6.73</td>
+</tr>
+<tr>
+<td>paamiut</td>
+<td align="right">36</td>
+<td>GL</td>
+<td align="right">1541178843</td>
+<td align="right">100</td>
+<td align="right">61.99</td>
+<td align="right">-49.67</td>
+<td align="right">30.29</td>
+<td align="right">6.17</td>
+</tr>
+<tr>
+<td>broken hill</td>
+<td align="right">0</td>
+<td>AU</td>
+<td align="right">1541178844</td>
+<td align="right">46</td>
+<td align="right">-31.97</td>
+<td align="right">141.45</td>
+<td align="right">64.67</td>
+<td align="right">8.97</td>
+</tr>
+<tr>
+<td>grindavik</td>
+<td align="right">75</td>
+<td>IS</td>
+<td align="right">1541176200</td>
+<td align="right">69</td>
+<td align="right">63.84</td>
+<td align="right">-22.43</td>
+<td align="right">35.6</td>
+<td align="right">16.11</td>
+</tr>
+<tr>
+<td>half moon bay</td>
+<td align="right">20</td>
+<td>US</td>
+<td align="right">1541178000</td>
+<td align="right">100</td>
+<td align="right">37.46</td>
+<td align="right">-122.43</td>
+<td align="right">66.02</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>caravelas</td>
+<td align="right">0</td>
+<td>BR</td>
+<td align="right">1541178845</td>
+<td align="right">100</td>
+<td align="right">-17.73</td>
+<td align="right">-39.27</td>
+<td align="right">78.67</td>
+<td align="right">13.78</td>
+</tr>
+<tr>
+<td>byron bay</td>
+<td align="right">0</td>
+<td>AU</td>
+<td align="right">1541176200</td>
+<td align="right">82</td>
+<td align="right">-28.65</td>
+<td align="right">153.62</td>
+<td align="right">66.2</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>solnechnyy</td>
+<td align="right">64</td>
+<td>RU</td>
+<td align="right">1541178846</td>
+<td align="right">80</td>
+<td align="right">50.72</td>
+<td align="right">136.64</td>
+<td align="right">29.12</td>
+<td align="right">5.17</td>
+</tr>
+<tr>
+<td>porto santo</td>
+<td align="right">40</td>
+<td>PT</td>
+<td align="right">1541176200</td>
+<td align="right">72</td>
+<td align="right">33.07</td>
+<td align="right">-16.34</td>
+<td align="right">69.8</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>oskarshamn</td>
+<td align="right">75</td>
+<td>SE</td>
+<td align="right">1541177400</td>
+<td align="right">93</td>
+<td align="right">57.26</td>
+<td align="right">16.44</td>
+<td align="right">48.2</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>jalu</td>
+<td align="right">12</td>
+<td>LY</td>
+<td align="right">1541178847</td>
+<td align="right">47</td>
+<td align="right">29.03</td>
+<td align="right">21.55</td>
+<td align="right">67.87</td>
+<td align="right">8.3</td>
+</tr>
+<tr>
+<td>kotelnikovo</td>
+<td align="right">0</td>
+<td>RU</td>
+<td align="right">1541178847</td>
+<td align="right">57</td>
+<td align="right">47.63</td>
+<td align="right">43.14</td>
+<td align="right">42.17</td>
+<td align="right">13.22</td>
+</tr>
+<tr>
+<td>paris</td>
+<td align="right">75</td>
+<td>US</td>
+<td align="right">1541177700</td>
+<td align="right">71</td>
+<td align="right">36.3</td>
+<td align="right">-88.33</td>
+<td align="right">53.6</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>shingu</td>
+<td align="right">76</td>
+<td>JP</td>
+<td align="right">1541178808</td>
+<td align="right">100</td>
+<td align="right">33.72</td>
+<td align="right">135.99</td>
+<td align="right">60.67</td>
+<td align="right">10.09</td>
+</tr>
+<tr>
+<td>quatre cocos</td>
+<td align="right">20</td>
+<td>MU</td>
+<td align="right">1541174400</td>
+<td align="right">73</td>
+<td align="right">-20.21</td>
+<td align="right">57.76</td>
+<td align="right">77.0</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>palompon</td>
+<td align="right">44</td>
+<td>PH</td>
+<td align="right">1541178849</td>
+<td align="right">100</td>
+<td align="right">11.05</td>
+<td align="right">124.38</td>
+<td align="right">82.4</td>
+<td align="right">6.73</td>
+</tr>
+<tr>
+<td>oktyabrskiy</td>
+<td align="right">0</td>
+<td>RU</td>
+<td align="right">1541176200</td>
+<td align="right">75</td>
+<td align="right">55.61</td>
+<td align="right">37.97</td>
+<td align="right">44.6</td>
+<td align="right">8.95</td>
+</tr>
+<tr>
+<td>grand gaube</td>
+<td align="right">20</td>
+<td>MU</td>
+<td align="right">1541174400</td>
+<td align="right">73</td>
+<td align="right">-20.01</td>
+<td align="right">57.66</td>
+<td align="right">77.0</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>huzhou</td>
+<td align="right">92</td>
+<td>CN</td>
+<td align="right">1541178910</td>
+<td align="right">87</td>
+<td align="right">30.86</td>
+<td align="right">120.1</td>
+<td align="right">54.68</td>
+<td align="right">3.15</td>
+</tr>
+<tr>
+<td>ushtobe</td>
+<td align="right">0</td>
+<td>KZ</td>
+<td align="right">1541178910</td>
+<td align="right">68</td>
+<td align="right">45.25</td>
+<td align="right">77.98</td>
+<td align="right">13.15</td>
+<td align="right">0.92</td>
+</tr>
+<tr>
+<td>lindi</td>
+<td align="right">20</td>
+<td>TZ</td>
+<td align="right">1541174400</td>
+<td align="right">78</td>
+<td align="right">-10</td>
+<td align="right">39.71</td>
+<td align="right">80.6</td>
+<td align="right">3.94</td>
+</tr>
+<tr>
+<td>teguldet</td>
+<td align="right">88</td>
+<td>RU</td>
+<td align="right">1541178912</td>
+<td align="right">70</td>
+<td align="right">57.31</td>
+<td align="right">88.17</td>
+<td align="right">25.07</td>
+<td align="right">12.66</td>
+</tr>
+<tr>
+<td>barinitas</td>
+<td align="right">48</td>
+<td>VE</td>
+<td align="right">1541178912</td>
+<td align="right">90</td>
+<td align="right">8.76</td>
+<td align="right">-70.41</td>
+<td align="right">72.23</td>
+<td align="right">2.37</td>
+</tr>
+<tr>
+<td>victor harbor</td>
+<td align="right">90</td>
+<td>AU</td>
+<td align="right">1541176200</td>
+<td align="right">63</td>
+<td align="right">-35.55</td>
+<td align="right">138.62</td>
+<td align="right">60.8</td>
+<td align="right">20.8</td>
+</tr>
+<tr>
+<td>luzhou</td>
+<td align="right">0</td>
+<td>CN</td>
+<td align="right">1541178914</td>
+<td align="right">66</td>
+<td align="right">28.89</td>
+<td align="right">105.45</td>
+<td align="right">54.28</td>
+<td align="right">5.95</td>
+</tr>
+<tr>
+<td>saqqez</td>
+<td align="right">12</td>
+<td>IR</td>
+<td align="right">1541178914</td>
+<td align="right">40</td>
+<td align="right">36.24</td>
+<td align="right">46.27</td>
+<td align="right">47.08</td>
+<td align="right">6.62</td>
+</tr>
+<tr>
+<td>chapais</td>
+<td align="right">90</td>
+<td>CA</td>
+<td align="right">1541176920</td>
+<td align="right">84</td>
+<td align="right">49.78</td>
+<td align="right">-74.86</td>
+<td align="right">32.0</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>labuhan</td>
+<td align="right">20</td>
+<td>ID</td>
+<td align="right">1541178915</td>
+<td align="right">94</td>
+<td align="right">-2.54</td>
+<td align="right">115.51</td>
+<td align="right">73.94</td>
+<td align="right">1.14</td>
+</tr>
+<tr>
+<td>karratha</td>
+<td align="right">0</td>
+<td>AU</td>
+<td align="right">1541178916</td>
+<td align="right">56</td>
+<td align="right">-20.74</td>
+<td align="right">116.85</td>
+<td align="right">72.5</td>
+<td align="right">7.96</td>
+</tr>
+<tr>
+<td>biak</td>
+<td align="right">48</td>
+<td>ID</td>
+<td align="right">1541178916</td>
+<td align="right">96</td>
+<td align="right">-0.91</td>
+<td align="right">122.88</td>
+<td align="right">78.67</td>
+<td align="right">1.36</td>
+</tr>
+<tr>
+<td>whyalla</td>
+<td align="right">0</td>
+<td>AU</td>
+<td align="right">1541174400</td>
+<td align="right">72</td>
+<td align="right">-33.04</td>
+<td align="right">137.58</td>
+<td align="right">60.8</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td>shimoda</td>
+<td align="right">32</td>
+<td>JP</td>
+<td align="right">1541178917</td>
+<td align="right">100</td>
+<td align="right">34.7</td>
+<td align="right">138.93</td>
+<td align="right">63.28</td>
+<td align="right">9.19</td>
+</tr>
+<tr>
+<td>ostersund</td>
+<td align="right">90</td>
+<td>SE</td>
+<td align="right">1541177400</td>
+<td align="right">93</td>
+<td align="right">63.18</td>
+<td align="right">14.64</td>
+<td align="right">37.4</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>montevideo</td>
+<td align="right">0</td>
+<td>UY</td>
+<td align="right">1541178000</td>
+<td align="right">59</td>
+<td align="right">-34.83</td>
+<td align="right">-56.17</td>
+<td align="right">69.8</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td>khandagayty</td>
+<td align="right">8</td>
+<td>RU</td>
+<td align="right">1541178918</td>
+<td align="right">59</td>
+<td align="right">50.73</td>
+<td align="right">92.05</td>
+<td align="right">-10.26</td>
+<td align="right">2.59</td>
+</tr>
+<tr>
+<td>dubti</td>
+<td align="right">0</td>
+<td>ET</td>
+<td align="right">1541178919</td>
+<td align="right">36</td>
+<td align="right">11.74</td>
+<td align="right">41.09</td>
+<td align="right">74.03</td>
+<td align="right">8.63</td>
+</tr>
+<tr>
+<td>tateyama</td>
+<td align="right">0</td>
+<td>JP</td>
+<td align="right">1541178919</td>
+<td align="right">100</td>
+<td align="right">36.66</td>
+<td align="right">137.31</td>
+<td align="right">31.33</td>
+<td align="right">2.48</td>
+</tr>
+<tr>
+<td>spearfish</td>
+<td align="right">90</td>
+<td>US</td>
+<td align="right">1541177700</td>
+<td align="right">64</td>
+<td align="right">44.49</td>
+<td align="right">-103.86</td>
+<td align="right">37.4</td>
+<td align="right">3.38</td>
+</tr>
+<tr>
+<td>san ramon</td>
+<td align="right">40</td>
+<td>BO</td>
+<td align="right">1541174400</td>
+<td align="right">66</td>
+<td align="right">-13.27</td>
+<td align="right">-64.62</td>
+<td align="right">91.4</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>mitsamiouli</td>
+<td align="right">20</td>
+<td>KM</td>
+<td align="right">1541174400</td>
+<td align="right">61</td>
+<td align="right">-11.38</td>
+<td align="right">43.28</td>
+<td align="right">82.4</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>gorgan</td>
+<td align="right">20</td>
+<td>IR</td>
+<td align="right">1541174400</td>
+<td align="right">87</td>
+<td align="right">36.84</td>
+<td align="right">54.43</td>
+<td align="right">55.4</td>
+<td align="right">0.25</td>
+</tr>
+<tr>
+<td>nantucket</td>
+<td align="right">90</td>
+<td>US</td>
+<td align="right">1541177340</td>
+<td align="right">88</td>
+<td align="right">41.28</td>
+<td align="right">-70.1</td>
+<td align="right">66.2</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td>sur</td>
+<td align="right">0</td>
+<td>OM</td>
+<td align="right">1541178921</td>
+<td align="right">100</td>
+<td align="right">22.57</td>
+<td align="right">59.53</td>
+<td align="right">78.08</td>
+<td align="right">12.66</td>
+</tr>
+<tr>
+<td>tikapur</td>
+<td align="right">0</td>
+<td>NP</td>
+<td align="right">1541178922</td>
+<td align="right">58</td>
+<td align="right">28.53</td>
+<td align="right">81.12</td>
+<td align="right">58.78</td>
+<td align="right">3.6</td>
+</tr>
+<tr>
+<td>manhattan</td>
+<td align="right">75</td>
+<td>US</td>
+<td align="right">1541174160</td>
+<td align="right">65</td>
+<td align="right">39.18</td>
+<td align="right">-96.57</td>
+<td align="right">49.82</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td>sorland</td>
+<td align="right">75</td>
+<td>NO</td>
+<td align="right">1541177400</td>
+<td align="right">81</td>
+<td align="right">67.67</td>
+<td align="right">12.69</td>
+<td align="right">46.4</td>
+<td align="right">24.16</td>
+</tr>
+<tr>
+<td>guiratinga</td>
+<td align="right">24</td>
+<td>BR</td>
+<td align="right">1541178923</td>
+<td align="right">63</td>
+<td align="right">-16.35</td>
+<td align="right">-53.76</td>
+<td align="right">90.14</td>
+<td align="right">4.38</td>
+</tr>
+<tr>
+<td>naron</td>
+<td align="right">75</td>
+<td>ES</td>
+<td align="right">1541178000</td>
+<td align="right">93</td>
+<td align="right">43.52</td>
+<td align="right">-8.15</td>
+<td align="right">57.2</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>tessalit</td>
+<td align="right">0</td>
+<td>ML</td>
+<td align="right">1541178924</td>
+<td align="right">26</td>
+<td align="right">20.2</td>
+<td align="right">1.01</td>
+<td align="right">83.08</td>
+<td align="right">6.4</td>
+</tr>
+<tr>
+<td>tchaourou</td>
+<td align="right">12</td>
+<td>BJ</td>
+<td align="right">1541178924</td>
+<td align="right">34</td>
+<td align="right">8.89</td>
+<td align="right">2.6</td>
+<td align="right">86.77</td>
+<td align="right">4.05</td>
+</tr>
+<tr>
+<td>rafael lucio</td>
+<td align="right">92</td>
+<td>MX</td>
+<td align="right">1541178925</td>
+<td align="right">97</td>
+<td align="right">19.59</td>
+<td align="right">-96.99</td>
+<td align="right">60.17</td>
+<td align="right">2.04</td>
+</tr>
+<tr>
+<td>srandakan</td>
+<td align="right">24</td>
+<td>ID</td>
+<td align="right">1541178925</td>
+<td align="right">90</td>
+<td align="right">-7.94</td>
+<td align="right">110.25</td>
+<td align="right">72.91</td>
+<td align="right">2.48</td>
+</tr>
+<tr>
+<td>beipiao</td>
+<td align="right">0</td>
+<td>CN</td>
+<td align="right">1541178925</td>
+<td align="right">87</td>
+<td align="right">41.8</td>
+<td align="right">120.76</td>
+<td align="right">43.93</td>
+<td align="right">8.97</td>
+</tr>
+<tr>
+<td>aksarka</td>
+<td align="right">0</td>
+<td>RU</td>
+<td align="right">1541178926</td>
+<td align="right">75</td>
+<td align="right">66.56</td>
+<td align="right">67.8</td>
+<td align="right">8.2</td>
+<td align="right">7.96</td>
+</tr>
+</tbody></div></table></div></div></div>
+</body>
+</html>
